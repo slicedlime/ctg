@@ -1,0 +1,2 @@
+# Force load has been removed
+tellraw @a [{"text":""},{"translate":"[Please click here to restore functionality]","color":"yellow","with":[{"translate":"Please click here to restore functionality","color":"yellow","underlined":true}],"clickEvent":{"action":"run_command","value":"/forceload add 1024 1024"},"hoverEvent":{"action":"show_text","value":{"translate":"Click to restore map functionality"}}}]}

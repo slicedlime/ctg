@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"No cheating! That link belonged to a different exercise!","color":"red"}]

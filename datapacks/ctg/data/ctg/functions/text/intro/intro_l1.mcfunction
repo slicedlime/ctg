@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"Hello, and welcome to the Command Training Grounds!","color":"gold"}]

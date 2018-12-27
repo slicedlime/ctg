@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"This map along with its companion video series is meant to\nteach you how to use Minecraft commands.","color":"gold"}]

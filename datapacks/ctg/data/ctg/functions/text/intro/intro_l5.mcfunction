@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"If the link has scrolled off the top of the chat window, there\nis a sign in the play area you can click to get it back.","color":"gold"}]

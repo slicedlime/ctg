@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"If you already know some commands, keep completing the\nexercises until you encounter one you can't solve.","color":"gold"}]
