@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"Your version of the Command Training Grounds map does not\ncontain the next section.","color":"gold"}]

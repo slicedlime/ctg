@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"Now, place the command block on the emerald block and make\nthe command block give you a diamond sword.", "with": [{"translate":"make\nthe command block give you a diamond sword", "color":"green"}], "color":"gold"}]

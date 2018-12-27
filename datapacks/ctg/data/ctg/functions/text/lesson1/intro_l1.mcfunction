@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"This section covers the introduction to commands and\ncommand blocks.","color":"gold"}]

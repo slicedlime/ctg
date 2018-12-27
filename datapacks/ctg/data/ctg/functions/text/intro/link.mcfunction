@@ -1,1 +1,0 @@
-tellraw @a [{"text":""},{"translate":"[Continue to the next lesson]","color":"yellow","with":[{"translate":"Continue to the next lesson","color":"yellow","underlined":true}],"clickEvent":{"action":"run_command","value":"/function ctg:intro/continue"},"hoverEvent":{"action":"show_text","value":{"translate":"Click to continue"}}}]}

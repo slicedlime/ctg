@@ -6,3 +6,5 @@ execute if score Lesson _ctg_main matches 0 run scoreboard players set Lesson _c
 execute if score Lesson _ctg_main matches 0 run scoreboard players set Exercise _ctg_scratch 0
 execute if score Lesson _ctg_main matches 0 run scoreboard players set Tick _ctg_scratch 0
 execute if score Lesson _ctg_main matches 0 run function ctg:store
+
+function ctg:completed

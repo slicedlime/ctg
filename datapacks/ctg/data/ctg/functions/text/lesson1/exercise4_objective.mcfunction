@@ -1,0 +1,1 @@
+title @a actionbar [{"translate":"Make the command block give you a diamond sword","color":"green"}]

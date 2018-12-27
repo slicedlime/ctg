@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"Now give yourself an entire stack of red wool blocks.", "with": [{"translate":"give yourself an entire stack of red wool blocks", "color":"green"}], "color":"gold"}]

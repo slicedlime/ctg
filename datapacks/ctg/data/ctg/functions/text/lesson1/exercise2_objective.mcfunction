@@ -1,0 +1,1 @@
+title @a actionbar [{"translate":"Give yourself a stack of red wool blocks","color":"green"}]

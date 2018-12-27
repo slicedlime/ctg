@@ -1,0 +1,1 @@
+scoreboard players set Tick _ctg_main 0

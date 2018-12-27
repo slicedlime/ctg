@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"Your first task is to give yourself a stone block.", "with": [{"translate":"give yourself a stone block", "color":"green"}], "color":"gold"}]

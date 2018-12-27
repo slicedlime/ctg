@@ -1,0 +1,1 @@
+title @a actionbar [{"translate":"Click the link in the chat","color":"green"}]
