@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"Feel free to rebuild the area in any way you want.", "color":"gold"}]
