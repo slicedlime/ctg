@@ -8,4 +8,5 @@ scoreboard players set Exercise _ctg_scratch 0
 function ctg:store
 
 execute positioned 11 106 4 run fill ~ ~ ~ ~31 ~31 ~31 air
+execute positioned 17 95 -49 run fill ~ ~ ~ ~31 ~31 ~31 air
 kill @e[type=armor_stand]

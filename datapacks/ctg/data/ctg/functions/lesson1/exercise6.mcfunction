@@ -29,7 +29,7 @@ execute unless score SayCommand _ctg_scratch matches 1.. store success score Say
 scoreboard players set Complete _ctg_scratch 0
 execute if score Lesson _ctg_main matches 1 if score Exercise _ctg_main matches 6 if score SayCommand _ctg_scratch matches 1 if score Activated _ctg_scratch matches 1 run scoreboard players set Complete _ctg_scratch 1
 
-execute if score Complete _ctg_scratch matches 1 run function ctg:completed
+execute if score Complete _ctg_scratch matches 1 run function ctg:lesson1/continue
 execute if score Complete _ctg_scratch matches 1 run scoreboard players set Lesson _ctg_scratch 2
 execute if score Complete _ctg_scratch matches 1 run scoreboard players set Exercise _ctg_scratch 0
 execute if score Complete _ctg_scratch matches 1 run scoreboard players set Tick _ctg_scratch 0
