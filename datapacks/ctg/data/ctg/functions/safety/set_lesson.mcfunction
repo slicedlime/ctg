@@ -1,4 +1,4 @@
-# Since any amount of tampering or mistakes could've happened,
+# Since any amount of tampering or mistakes couldve happened,
 # guess lesson number based on several sources
 
 scoreboard players set MainLesson _ctg_scratch 0
@@ -19,7 +19,7 @@ execute store result score EntityExercise _ctg_scratch run data get entity @e[ty
 scoreboard players set BlockLesson _ctg_scratch 0
 scoreboard players set BlockExercise _ctg_scratch 0
 execute store result score BlockLesson _ctg_scratch run data get block 1024 0 1024 ExitPortal.X
-execute store result score BlockLesson _ctg_scratch run data get block 1024 0 1024 ExitPortal.Z
+execute store result score BlockExercise _ctg_scratch run data get block 1024 0 1024 ExitPortal.Z
 
 # Okay, now we have 4 sources of the lesson and exercise values.
 # Pick whichever is lowest but positive

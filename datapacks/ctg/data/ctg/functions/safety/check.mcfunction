@@ -16,7 +16,6 @@ execute if score ObjectiveError _ctg_scratch matches 1.. run function ctg:text/o
 scoreboard players reset ObjectiveError _ctg_scratch
 
 # Check force load
-setblock 1024 1 1024 minecraft:stone
 execute store result score ForceLoaded _ctg_scratch run forceload query 1024 1024
 execute if score ForceLoaded _ctg_scratch matches 0 run function ctg:safety/forceload_error
 execute unless score ForceLoaded _ctg_scratch matches 0 if score ErrorMode _ctg_main matches 0.. run function ctg:text/forceload_fixed
