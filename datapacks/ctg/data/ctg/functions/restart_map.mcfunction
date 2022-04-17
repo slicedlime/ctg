@@ -10,3 +10,7 @@ function ctg:store
 execute positioned 11 106 4 run fill ~ ~ ~ ~31 ~31 ~31 air
 execute positioned 17 95 -49 run fill ~ ~ ~ ~31 ~31 ~31 air
 kill @e[type=armor_stand]
+
+execute as @a run spectate
+tp @a 0 102 0 -45 27
+time set 22570

@@ -1,4 +1,4 @@
-function ctg:spectator_mode
+function ctg:gamemode/spectator
 function ctg:transition
 
 execute if score Tick _ctg_main matches 110 run function ctg:text/lesson1/intro_title

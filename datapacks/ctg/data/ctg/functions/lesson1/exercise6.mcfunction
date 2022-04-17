@@ -1,5 +1,5 @@
 # Player state
-function ctg:creative_mode
+function ctg:gamemode/creative
 execute if score Tick _ctg_main matches 1 run clear @a
 execute if score Tick _ctg_main matches 1 run give @a minecraft:command_block
 

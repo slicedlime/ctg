@@ -1,5 +1,5 @@
 # Player state
-function ctg:adventure_mode
+function ctg:gamemode/adventure
 execute if score Tick _ctg_main matches 1 run clear @a
 
 # Description

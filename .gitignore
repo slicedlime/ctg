@@ -1,0 +1,13 @@
+build/*
+advancements/*
+data/fabric*
+data/chunks*
+data/raids*
+data/villages*
+DIM-1/*
+DIM1/*
+playerdata/*
+stats/*
+level.dat_old
+session.lock
+output/*

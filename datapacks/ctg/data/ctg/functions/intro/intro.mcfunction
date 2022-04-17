@@ -1,4 +1,4 @@
-function ctg:adventure_mode
+function ctg:gamemode/adventure
 
 execute if score Tick _ctg_main matches 10 run function ctg:text/intro/intro_l0
 execute if score Tick _ctg_main matches 100 run function ctg:text/intro/intro_l1

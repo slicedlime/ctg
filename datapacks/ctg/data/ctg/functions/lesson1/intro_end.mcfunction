@@ -1,6 +1,6 @@
 # End the intro, move to exercise 1
 
-function ctg:adventure_mode
+function ctg:gamemode/adventure
 
 # Only do stuff if we're in the right lesson
 execute unless score Lesson _ctg_main matches 1 unless score Exercise _ctg_main matches 0 run function ctg:text/cheater
