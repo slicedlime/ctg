@@ -2,8 +2,8 @@
 
 # Would be great if these could be AECs, but they can't because the direction doesn't seem to update properly
 # Also would be great if they could be made fully invisible, but that also doesn't seem to work
-execute if entity @e[tag=_ctg_target,scores={_ctg_main=1}] unless entity @e[tag=_ctg_eyes] at @p anchored eyes run summon minecraft:bat ^ ^ ^4 {NoGravity:1b,NoAI:1b, Silent:1b, Tags:["_ctg_eyes"], CustomName:'"CTG Eyes"', ActiveEffects:[{Id:14b,Amplifier:0b,Duration:2147483647,Ambient:0b,ShowIcon:0b,ShowParticles:0b}]}
-execute if entity @e[tag=_ctg_target,scores={_ctg_main=1}] unless entity @e[tag=_ctg_body] at @p run summon minecraft:bat ~ ~ ~ {NoGravity:1b,NoAI:1b, Silent:1b, Tags:["_ctg_body","_ctg_spline"], CustomName:'"CTG Body"', ActiveEffects:[{Id:14b,Amplifier:0b,Duration:2147483647,Ambient:0b,ShowIcon:0b,ShowParticles:0b}]}
+execute if entity @e[tag=_ctg_target,scores={_ctg_main=1}] unless entity @e[tag=_ctg_eyes] at @p anchored eyes run summon minecraft:marker ^ ^ ^4 {Tags:["_ctg_eyes"], CustomName:'"CTG Eyes"'}
+execute if entity @e[tag=_ctg_target,scores={_ctg_main=1}] unless entity @e[tag=_ctg_body] at @p run summon minecraft:marker ~ ~ ~ {Tags:["_ctg_body","_ctg_spline"], CustomName:'"CTG Body"'}
 execute if entity @e[tag=_ctg_target,scores={_ctg_main=1}] unless entity @e[tag=_ctg_view] at @p run summon armor_stand ~ ~ ~ {Tags:["_ctg_view"], NoGravity:1b, Invisible:1b}
 team add all
 team join all @a[team=!all]
