@@ -47,18 +47,21 @@ def mirror_dir(name, folder):
 def mirror_file(name, folder):
     shutil.copyfile(name, folder + '/' + name)
 
+def get_lesson_desc(lesson):
+    if lesson == 0:
+        return '(Intro)'
+    elif lesson == 1:
+        return'(Lesson 1)'
+    else:
+        return '(Lessons 1-' + str(lesson) + ')'
+
 def make_datapack(folder, lesson):
     print('Making datapack for lesson ' + str(lesson))
     # Copy folder
     dir_util.copy_tree('datapacks/ctg', folder + '/ctg')
 
     # Rewrite mcmeta
-    if lesson == 0:
-        range_description = '(Intro)'
-    elif lesson == 1:
-        range_description = '(Lesson 1)'
-    else:
-        range_description = '(Lessons 1-' + str(lesson) + ')'
+    range_description = get_lesson_desc(lesson)
     process_file(folder + '/ctg/pack.mcmeta', {
         '$DESCRIPTION': 'Commang Training Grounds datapack ' + range_description
     })
@@ -91,6 +94,36 @@ def make_resourcepack(folder, lesson):
     print('Making datapack for lesson ' + str(lesson))
     # Copy folder
     dir_util.copy_tree('resourcepacks/ctg', folder + '/ctg')
+
+    # Rewrite mcmeta
+    range_description = get_lesson_desc(lesson)
+    process_file(folder + '/ctg/pack.mcmeta', {
+        '$DESCRIPTION': 'Commang Training Grounds resources ' + range_description
+    })
+
+    # Strip strings
+    lang_folder = folder + '/ctg/assets/minecraft/lang'
+    lang_files = [f for f in os.listdir(lang_folder) if os.path.isfile(os.path.join(lang_folder, f))]
+    for lang_name in lang_files:
+        lang_file = os.path.join(lang_folder, lang_name)
+        with open(lang_file, 'r') as file:
+            lines = file.readlines()
+        section_prefix = '    "--------- '
+        prefix_len = len(section_prefix)
+        in_stripped_section = False
+        with open(lang_file, 'w') as file:
+            for line in lines:
+                if line[:prefix_len] == section_prefix:
+                    # New section
+                    in_stripped_section = False
+                    header = line[prefix_len:]
+                    if header[:7] == 'Lesson ':
+                        header_for = int(header[7:9].rstrip())
+                        in_stripped_section = header_for > lesson
+                if not in_stripped_section:
+                    file.write(line)
+
+    # Create pack zip
     pack_file = folder + '/resources.zip'
     zip(pack_file, folder + '/ctg', ['resources.zip'])
     return pack_file
