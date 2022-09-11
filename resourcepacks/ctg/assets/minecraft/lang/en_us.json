@@ -99,6 +99,9 @@
     "Section 2 - Command Basics 2": "Section 2 - Command Basics 2",
     "This section covers game rules and repeating command\nblocks.": "This section covers game rules and repeating command\nblocks.",
     "[Command Basics 2 Tutorial]": "[%s]",
-    "Command Basics 2 Tutorial": "Command Basics 2 Tutorial"
+    "Command Basics 2 Tutorial": "Command Basics 2 Tutorial",
 
+    "To begin with, the command block output game rule has been\nswitched off. Switch it back on!": "To begin with, the command block output game rule has been\nswitched off. %s",
+    "Switch it back on!": "Switch it back on!",
+    "Switch the command block output game rule back on": "Switch the command block output game rule back on"
 }

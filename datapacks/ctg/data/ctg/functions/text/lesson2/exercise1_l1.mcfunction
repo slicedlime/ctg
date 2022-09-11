@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"To begin with, the command block output game rule has been\nswitched off. Switch it back on!", "with": [{"translate":"Switch it back on!", "color":"green"}], "color":"gold"}]
