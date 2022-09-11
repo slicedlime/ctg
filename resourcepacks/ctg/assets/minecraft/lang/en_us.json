@@ -107,5 +107,9 @@
 
     "There's an emerald block on the island now. Replace the emerald block with a diamond block!": "There's an emerald block on the island now. %s",
     "Replace the emerald block with a diamond block!": "Replace the emerald block with a diamond block!",
-    "Replace the emerald block with a diamond block": "Replace the emerald block with a diamond block"
+    "Replace the emerald block with a diamond block": "Replace the emerald block with a diamond block",
+
+    "A new emerald block has shown up. Make a repeating command block that replaces that emerald block with a gold block.": "A new emerald block has shown up. %s",
+    "Make a repeating command block that replaces that emerald block with a gold block.": "Make a repeating command block that replaces that emerald block with a gold block.",
+    "Make a repeating command block replace the emerald block with a gold block": "Make a repeating command block replace the emerald block with a gold block"
 }
