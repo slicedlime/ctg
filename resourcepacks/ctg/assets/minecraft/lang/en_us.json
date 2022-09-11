@@ -111,5 +111,12 @@
 
     "A new emerald block has shown up. Make a repeating command block that replaces that emerald block with a gold block.": "A new emerald block has shown up. %s",
     "Make a repeating command block that replaces that emerald block with a gold block.": "Make a repeating command block that replaces that emerald block with a gold block.",
-    "Make a repeating command block replace the emerald block with a gold block": "Make a repeating command block replace the emerald block with a gold block"
+    "Make a repeating command block replace the emerald block with a gold block": "Make a repeating command block replace the emerald block with a gold block",
+
+    "As the final exercise in this lesson, make a repeating command block give you a cookie.": "As the final exercise in this lesson, %s",
+    "make a repeating command block give you a cookie.": "make a repeating command block give you a cookie.",
+    "Make a repeating command block give you a cookie": "Make a repeating command block give you a cookie",
+    "Oh my, that's a lot of cookies...": "Oh my, that's a lot of cookies...",
+    "How are you going to eat all of those?": "How are you going to eat all of those?",
+    "You must accept cookies to keep playing this map.": "You must accept cookies to keep playing this map."
 }

@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"As the final exercise in this lesson, make a repeating command block give you a cookie.", "with": [{"translate":"make a repeating command block give you a cookie.", "color":"green"}], "color":"gold"}]
