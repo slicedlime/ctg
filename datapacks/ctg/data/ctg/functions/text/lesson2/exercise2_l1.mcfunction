@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"There's an emerald block on the island now. Replace the emerald block with a diamond block!", "with": [{"translate":"Replace the emerald block with a diamond block!", "color":"green"}], "color":"gold"}]

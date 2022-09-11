@@ -103,5 +103,9 @@
 
     "To begin with, the command block output game rule has been\nswitched off. Switch it back on!": "To begin with, the command block output game rule has been\nswitched off. %s",
     "Switch it back on!": "Switch it back on!",
-    "Switch the command block output game rule back on": "Switch the command block output game rule back on"
+    "Switch the command block output game rule back on": "Switch the command block output game rule back on",
+
+    "There's an emerald block on the island now. Replace the emerald block with a diamond block!": "There's an emerald block on the island now. %s",
+    "Replace the emerald block with a diamond block!": "Replace the emerald block with a diamond block!",
+    "Replace the emerald block with a diamond block": "Replace the emerald block with a diamond block"
 }
