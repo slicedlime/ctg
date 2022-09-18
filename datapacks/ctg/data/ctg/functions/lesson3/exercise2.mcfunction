@@ -1,12 +1,9 @@
 # Player state
-function ctg:gamemode/creative
 execute if score Tick _ctg_main matches 1 run clear @a
 
 # Description
-execute if score Tick _ctg_main matches 1 run function ctg:text/lesson3/exercise1_l1
-execute if score Tick _ctg_main matches 80 run function ctg:text/lesson3/exercise1_l2
-execute if score Tick _ctg_main matches 160 run function ctg:text/lesson3/exercise1_l3
-function ctg:text/lesson3/exercise1_objective
+execute if score Tick _ctg_main matches 2 run function ctg:text/lesson3/exercise2_l1
+function ctg:text/lesson3/exercise2_objective
 
 # Set blocks
 setblock -16 127 -25 emerald_block
@@ -25,11 +22,14 @@ tag @a remove _ctg_on_diamond
 execute positioned -6.5 128 -32.5 run tag @a[distance=..0.5] add _ctg_on_diamond
 
 scoreboard players set Completed _ctg_scratch 0
-execute if score Lesson _ctg_main matches 3 if score Exercise _ctg_main matches 1 if entity @a[tag=!_ctg_was_on_diamond,tag=_ctg_on_diamond] if score CommandExecuted _ctg_scratch matches 1 if block -7 127 -33 redstone_block run scoreboard players set Completed _ctg_scratch 1
+execute if score Lesson _ctg_main matches 3 if score Exercise _ctg_main matches 2 if entity @a[tag=!_ctg_was_on_diamond,tag=_ctg_on_diamond,gamemode=survival,tag=_ctg_in_survival] if score CommandExecuted _ctg_scratch matches 1 if block -7 127 -33 redstone_block run scoreboard players set Completed _ctg_scratch 1
+
+tag @a remove _ctg_in_survival
+tag @a[gamemode=survival] add _ctg_in_survival
 
 execute if score Completed _ctg_scratch matches 1 run function ctg:completed
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Lesson _ctg_scratch 3
-execute if score Completed _ctg_scratch matches 1 run scoreboard players set Exercise _ctg_scratch 2
+execute if score Completed _ctg_scratch matches 1 run scoreboard players set Exercise _ctg_scratch 3
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Tick _ctg_scratch 0
 execute if score Completed _ctg_scratch matches 1 run function ctg:store
 

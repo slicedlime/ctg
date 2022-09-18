@@ -132,5 +132,9 @@
     "Place down the first command block in the chain on top of the emerald block. Activate it when done.": "Place down the first command block in the chain on top of the emerald block. Activate it when done.",
     "Make the chain replace the diamond block with a redstone block, then teleport you on top of that redstone block": "Make the chain replace the diamond block with a redstone block, then teleport you on top of that redstone block",
     "Chain replacing diamond block with redstone block & teleport on top": "Chain replacing diamond block with redstone block & teleport on top",
-    "Do not use a repeating command block!": "Do not use a repeating command block!"
+    "Do not use a repeating command block!": "Do not use a repeating command block!",
+
+    "Now activate that command chain in survival mode": "Now %s",
+    "activate that command chain in survival mode": "activate that command chain in survival mode",
+    "Activate the command chain in survival mode": "Activate the command chain in survival mode"
 }
