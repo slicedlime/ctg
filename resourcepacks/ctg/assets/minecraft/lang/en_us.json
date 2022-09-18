@@ -118,5 +118,19 @@
     "Make a repeating command block give you a cookie": "Make a repeating command block give you a cookie",
     "Oh my, that's a lot of cookies...": "Oh my, that's a lot of cookies...",
     "How are you going to eat all of those?": "How are you going to eat all of those?",
-    "You must accept cookies to keep playing this map.": "You must accept cookies to keep playing this map."
+    "You must accept cookies to keep playing this map.": "You must accept cookies to keep playing this map.",
+
+    "--------- Lesson 3 ---------":"",
+
+    "Section 3": "Section 3",
+    "Command Chains": "Command Chains",
+    "Section 3 - Command Chains": "Section 2 - Command Basics 2",
+    "This section covers game modes, teleporting players and command block chains.": "This section covers game modes, teleporting players and command block chains.",
+    "[Command Chains Tutorial]": "[%s]",
+    "Command Chains Tutorial": "Command Chains Tutorial",
+    "Our first exercise in this section will be to make a command block chain.": "Our first exercise in this section will be to make a command block chain.",
+    "Place down the first command block in the chain on top of the emerald block. Activate it when done.": "Place down the first command block in the chain on top of the emerald block. Activate it when done.",
+    "Make the chain replace the diamond block with a redstone block, then teleport you on top of that redstone block": "Make the chain replace the diamond block with a redstone block, then teleport you on top of that redstone block",
+    "Chain replacing diamond block with redstone block & teleport on top": "Chain replacing diamond block with redstone block & teleport on top",
+    "Do not use a repeating command block!": "Do not use a repeating command block!"
 }

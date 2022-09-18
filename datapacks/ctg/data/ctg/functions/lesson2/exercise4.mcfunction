@@ -18,7 +18,10 @@ execute if score ExpectedCookies _ctg_main matches 64 run function ctg:text/less
 execute if score ExpectedCookies _ctg_main matches 160 run function ctg:text/lesson2/exercise4_l3
 execute if score ExpectedCookies _ctg_main matches 320 run function ctg:text/lesson2/exercise4_l4
 
-execute if score Lesson _ctg_main matches 2 if score Exercise _ctg_main matches 4 if score ExpectedCookies _ctg_main matches 350 run function ctg:completed
+scoreboard players set Complete _ctg_scratch 0
+execute if score Lesson _ctg_main matches 2 if score Exercise _ctg_main matches 4 if score ExpectedCookies _ctg_main matches 350 run scoreboard players set Complete _ctg_scratch 1
+
+execute if score Lesson _ctg_main matches 2 if score Exercise _ctg_main matches 4 if score ExpectedCookies _ctg_main matches 350 run function ctg:lesson2/continue
 execute if score Lesson _ctg_main matches 2 if score Exercise _ctg_main matches 4 if score ExpectedCookies _ctg_main matches 350 run scoreboard players set Lesson _ctg_scratch 3
 execute if score Lesson _ctg_main matches 2 if score Exercise _ctg_main matches 4 if score ExpectedCookies _ctg_main matches 350 run scoreboard players set Exercise _ctg_scratch 0
 execute if score Lesson _ctg_main matches 2 if score Exercise _ctg_main matches 4 if score ExpectedCookies _ctg_main matches 350 run scoreboard players set Tick _ctg_scratch 0
