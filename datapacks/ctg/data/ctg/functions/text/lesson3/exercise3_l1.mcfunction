@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"Place a command block on the emerald block that changes your game mode to adventure. Activate the block.", "with": [{"translate": "changes your game mode to adventure", "color": "green"}], "color":"gold"}]
