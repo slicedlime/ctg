@@ -144,7 +144,10 @@
     "survival": "survival",
     "creative": "creative",
     "spectator": "spectator",
-    "adventure": "adventure"
+    "adventure": "adventure",
 
-
+    "Your next task is to make a chain on the copper blocks. Start with an impulse block on the regular copper.": "Your next task is to make a chain on the copper blocks. Start with an impulse block on the regular copper.",
+    "Make the chain give you an iron sword, a shield, a bow and a stack of arrows": "Make the chain give you an iron sword, a shield, a bow and a stack of arrows",
+    "You must only place command blocks on top of the copper blocks. When you are done, activate it.": "You must only place command blocks on top of the copper blocks. When you are done, activate it.",
+    "Make a square chain that gears you up": "Make a square chain that gears you up"
 }
