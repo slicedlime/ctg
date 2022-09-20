@@ -2,6 +2,15 @@
 scoreboard objectives remove _ctg_scratch
 scoreboard objectives add _ctg_scratch dummy "CTG Scratch Space"
 
+# Check force load
+execute store result score ForceLoaded _ctg_scratch run forceload query 1024 1024
+execute if score ForceLoaded _ctg_scratch matches 0 run forceload add 1024 1024
+
+# Check if actually loaded
+execute store success score ChunkLoaded _ctg_scratch unless block 1024 -1 1024 lime_stained_glass_pane
+execute if score ChunkLoaded _ctg_scratch matches 0 run scoreboard players add ErrorMode _ctg_main 1
+execute if score ChunkLoaded _ctg_scratch matches 1 run scoreboard players reset ErrorMode _ctg_main
+
 # Add main scoreboard objectives and record if successful, which meant they were removed
 execute store success score MainRemoved _ctg_scratch run scoreboard objectives add _ctg_main dummy "CTG Main Storage"
 execute store success score BackupRemoved _ctg_scratch run scoreboard objectives add _ctg_backup dummy "CTG Backup Storage"
@@ -15,21 +24,5 @@ scoreboard players operation ObjectiveError _ctg_scratch += BackupRemoved _ctg_s
 execute if score ObjectiveError _ctg_scratch matches 1.. run function ctg:text/objective_error
 scoreboard players reset ObjectiveError _ctg_scratch
 
-# Check force load
-execute store result score ForceLoaded _ctg_scratch run forceload query 1024 1024
-execute if score ForceLoaded _ctg_scratch matches 0 run function ctg:safety/forceload_error
-execute unless score ForceLoaded _ctg_scratch matches 0 if score ErrorMode _ctg_main matches 0.. run function ctg:text/forceload_fixed
-execute unless score ForceLoaded _ctg_scratch matches 0 run scoreboard players reset ErrorMode _ctg_main
-
-# Check for existence of backup entity
-execute unless score ErrorMode _ctg_main matches 0.. unless entity @e[type=minecraft:area_effect_cloud,tag=_ctg_backup] run function ctg:safety/restore_entity
-
-# Make sure there's only one
-execute store result score EntityCount _ctg_scratch if entity @e[type=minecraft:area_effect_cloud,tag=_ctg_backup]
-execute if score EntityCount _ctg_scratch matches 2.. run function ctg:safety/kill_duplicate_entities
-
-# Check backup block
-execute unless score ErrorMode _ctg_main matches 0.. unless block 1024 0 1024 minecraft:end_gateway run function ctg:safety/restore_block
-
-# Okay, now everything exists - let's figure out which lesson we were at
-execute unless score ErrorMode _ctg_main matches 0.. run function ctg:safety/set_lesson
+# If force load is done, continue with entity/block checks
+execute if score ChunkLoaded _ctg_scratch matches 1 run function ctg:safety/check_loaded
