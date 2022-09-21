@@ -8,6 +8,11 @@ execute if score ForceLoaded _ctg_scratch matches 0 run forceload add 1024 1024
 
 # Check if actually loaded
 execute store success score ChunkLoaded _ctg_scratch unless block 1024 -1 1024 lime_stained_glass_pane
+
+# Also need to check if entities are loaded for the chunk
+execute if score WaitingForLoad _ctg_main matches 1 run function ctg:safety/wait_load
+execute if score WaitingForLoad _ctg_main matches 1 run scoreboard players set ChunkLoaded _ctg_scratch 0
+
 execute if score ChunkLoaded _ctg_scratch matches 0 run scoreboard players add ErrorMode _ctg_main 1
 execute if score ChunkLoaded _ctg_scratch matches 1 run scoreboard players reset ErrorMode _ctg_main
 

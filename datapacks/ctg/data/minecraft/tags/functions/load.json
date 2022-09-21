@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "ctg:restart_exercise"
+    "ctg:restart_exercise",
+    "ctg:safety/start_wait_load"
   ]
 }
