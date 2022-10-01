@@ -12,7 +12,7 @@ function ctg:text/lesson4/exercise1_objective
 setblock -15 112 36 minecraft:emerald_block
 
 # Win condition
-execute if block -15 113 36 command_block run data modify block -16 128 -25 UpdateLastExecution set value 1
+execute if block -15 113 36 command_block run data modify block -15 113 36 UpdateLastExecution set value 1
 execute store success score CommandExecuted _ctg_scratch run data modify storage ctg:l4e1 LastExecution set from block -15 113 36 LastExecution
 
 scoreboard players set Completed _ctg_scratch 0

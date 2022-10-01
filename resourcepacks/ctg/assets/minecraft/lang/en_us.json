@@ -119,7 +119,7 @@
 
     "Section 3": "Section 3",
     "Command Chains": "Command Chains",
-    "Section 3 - Command Chains": "Section 2 - Command Basics 2",
+    "Section 3 - Command Chains": "Section 3 - Command Chains",
     "This section covers game modes, teleporting players and command block chains.": "This section covers game modes, teleporting players and command block chains.",
     "[Command Chains Tutorial]": "[%s]",
     "Command Chains Tutorial": "Command Chains Tutorial",
@@ -154,5 +154,22 @@
     "Look - a nice plushie has appeared! Wouldn't it be nicer if we had two of them though?": "Look - a nice plushie has appeared! Wouldn't it be nicer if we had two of them though?",
     "Make a chain starting with an impulse block on the emerald block that makes an identical copy on top of the gold blocks.": "Make a chain starting with an impulse block on the emerald block that makes an identical copy on top of the gold blocks.",
     "When you are done, press the button on the diamond block.": "When you are done, press the button on the diamond block.",
-    "Make a chain that replicates the plushie": "Make a chain that replicates the plushie"
+    "Make a chain that replicates the plushie": "Make a chain that replicates the plushie",
+
+    "--------- Lesson 4 ---------":"",
+
+    "Section 4": "Section 4",
+    "Relative Coordinates": "Relative Coordinates",
+    "Section 4 - Relative Coordinates": "Section 4 - Relative Coordinates",
+    "[Relative Coordinates Tutorial]": "[%s]",
+    "Relative Coordinates Tutorial": "Relative Coordinates Tutorial",
+
+    "Make a command block place a diamond block 3 blocks above itself": "Make a command block place a diamond block 3 blocks above itself",
+    "For our first exercise in this section, place a command block on the emerald block.": "For our first exercise in this section, place a command block on the emerald block.",
+    "Make the command block place a diamond block 3 blocks above itself.": "Make the command block place a diamond block 3 blocks above itself.",
+    "When you are done, activate the block.": "When you are done, activate the block.",
+
+    "Use relative coordinates to replace the gold block with a diamond block": "Use relative coordinates to replace the gold block with a diamond block",
+    "Okay, let's make it a bit harder! Place a new command block on the new emerald block.": "Okay, let's make it a bit harder! Place a new command block on the new emerald block.",
+    "Make the command block use relative coordinates to replace the gold block with a diamond block.": "Make the command block use relative coordinates to replace the gold block with a diamond block."
 }
