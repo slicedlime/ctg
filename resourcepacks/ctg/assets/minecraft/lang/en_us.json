@@ -171,5 +171,10 @@
 
     "Use relative coordinates to replace the gold block with a diamond block": "Use relative coordinates to replace the gold block with a diamond block",
     "Okay, let's make it a bit harder! Place a new command block on the new emerald block.": "Okay, let's make it a bit harder! Place a new command block on the new emerald block.",
-    "Make the command block use relative coordinates to replace the gold block with a diamond block.": "Make the command block use relative coordinates to replace the gold block with a diamond block."
+    "Make the command block use relative coordinates to replace the gold block with a diamond block.": "Make the command block use relative coordinates to replace the gold block with a diamond block.",
+
+    "Now place a command block that teleports you 3 blocks above it on the emerald block.": "Now %s on the emerald block.",
+    "place a command block that teleports you 3 blocks above it": "place a command block that teleports you 3 blocks above it",
+    "When you are done, activate the command block in survival mode.": "When you are done, activate the command block in survival mode.",
+    "Teleport 3 blocks above the command block in survival mode": "Teleport 3 blocks above the command block in survival mode"
 }
