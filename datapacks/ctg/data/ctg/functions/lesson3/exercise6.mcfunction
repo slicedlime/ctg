@@ -37,7 +37,7 @@ scoreboard players set Completed _ctg_scratch 0
 execute if score Lesson _ctg_main matches 3 if score Exercise _ctg_main matches 6 if score L3E6Test _ctg_main matches 2 if blocks -27 125 -39 -26 128 -37 -27 125 -34 all run scoreboard players set Completed _ctg_scratch 1
 execute if score L3E6Test _ctg_main matches 2.. run scoreboard players reset L3E6Test _ctg_main
 
-execute if score Completed _ctg_scratch matches 1 run function ctg:continue
+execute if score Completed _ctg_scratch matches 1 run function ctg:lesson3/continue
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Lesson _ctg_scratch 4
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Exercise _ctg_scratch 0
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Tick _ctg_scratch 0

@@ -27,7 +27,7 @@ fill -32 114 -42 -5 132 -11 air replace repeating_command_block
 
 # Win condition
 execute if block -15 124 -32 command_block run data modify block -15 124 -32 UpdateLastExecution set value 1
-execute store success score CommandExecuted _ctg_scratch run data modify storage ctg:l3e5 LastExecution set from block -15 124 -32
+execute store success score CommandExecuted _ctg_scratch run data modify storage ctg:l3e5 LastExecution set from block -15 124 -32 LastExecution
 
 execute store result score Sword _ctg_scratch run clear @a iron_sword
 execute store result score Shield _ctg_scratch run clear @a shield

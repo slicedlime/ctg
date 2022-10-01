@@ -20,7 +20,7 @@ execute if block -10 126 -27 repeating_command_block run data modify block -10 1
 
 # Win condition
 execute if block -10 126 -27 command_block run data modify block -10 126 -27 UpdateLastExecution set value 1
-execute store success score CommandExecuted _ctg_scratch run data modify storage ctg:l3e3 LastExecution set from block -10 126 -27
+execute store success score CommandExecuted _ctg_scratch run data modify storage ctg:l3e3 LastExecution set from block -10 126 -27 LastExecution
 
 scoreboard players set Completed _ctg_scratch 0
 execute if score Lesson _ctg_main matches 3 if score Exercise _ctg_main matches 3 if entity @a[gamemode=adventure] if score CommandExecuted _ctg_scratch matches 1 run scoreboard players set Completed _ctg_scratch 1

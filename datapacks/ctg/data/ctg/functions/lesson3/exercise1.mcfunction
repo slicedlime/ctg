@@ -17,7 +17,7 @@ execute if block -16 128 -25 repeating_command_block run data modify block -16 1
 
 # Win condition
 execute if block -16 128 -25 command_block run data modify block -16 128 -25 UpdateLastExecution set value 1
-execute store success score CommandExecuted _ctg_scratch run data modify storage ctg:l3e1 LastExecution set from block -16 128 -25
+execute store success score CommandExecuted _ctg_scratch run data modify storage ctg:l3e1 LastExecution set from block -16 128 -25 LastExecution
 
 tag @a remove _ctg_was_on_diamond
 tag @a[tag=_ctg_on_diamond] add _ctg_was_on_diamond

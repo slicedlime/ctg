@@ -23,4 +23,7 @@ execute if score Lesson _ctg_main matches 3 if score Exercise _ctg_main matches 
 execute if score Lesson _ctg_main matches 3 if score Exercise _ctg_main matches 5 run function ctg:lesson3/exercise5
 execute if score Lesson _ctg_main matches 3 if score Exercise _ctg_main matches 6 run function ctg:lesson3/exercise6
 
-execute if score Lesson _ctg_main matches 4 if score Exercise _ctg_main matches 0 run function ctg:next_episode/intro
+execute if score Lesson _ctg_main matches 4 if score Exercise _ctg_main matches 0 run function ctg:lesson4/intro
+execute if score Lesson _ctg_main matches 4 if score Exercise _ctg_main matches 1 run function ctg:lesson4/exercise1
+
+execute if score Lesson _ctg_main matches 5 if score Exercise _ctg_main matches 0 run function ctg:next_episode/intro
