@@ -54,11 +54,11 @@
     "--------- Lesson 1 ---------":"",
 
     "Section 1": "Section 1",
-    "Command Basics 1": "Command Basics 1",
-    "Section 1 - Command Basics 1": "Section 1 - Command Basics 1",
+    "Command Basics": "Command Basics",
+    "Section 1 - Command Basics": "Section 1 - Command Basics",
     "This section covers the introduction to commands and command blocks.": "This section covers the introduction to commands and command blocks.",
-    "[Command Basics 1 Tutorial]": "[%s]",
-    "Command Basics 1 Tutorial": "Command Basics 1 Tutorial",
+    "[Command Basics Tutorial]": "[%s]",
+    "Command Basics Tutorial": "Command Basics Tutorial",
 
     "Your first task is to give yourself a stone block.": "Your first task is to %s.",
     "give yourself a stone block": "give yourself a stone block",
@@ -90,11 +90,11 @@
     "--------- Lesson 2 ---------":"",
 
     "Section 2": "Section 2",
-    "Command Basics 2": "Command Basics 2",
-    "Section 2 - Command Basics 2": "Section 2 - Command Basics 2",
+    "Repeating Commands": "Repeating Commands",
+    "Section 2 - Repeating Commands": "Section 2 - Repeating Commands",
     "This section covers game rules and repeating command blocks.": "This section covers game rules and repeating command blocks.",
-    "[Command Basics 2 Tutorial]": "[%s]",
-    "Command Basics 2 Tutorial": "Command Basics 2 Tutorial",
+    "[Repeating Commands Tutorial]": "[%s]",
+    "Repeating Commands Tutorial": "Repeating Commands Tutorial",
 
     "To begin with, the command block output game rule has been switched off. Switch it back on!": "To begin with, the command block output game rule has been switched off. %s",
     "Switch it back on!": "Switch it back on!",
