@@ -1,1 +1,1 @@
-tellraw @a [{"text":"\n"},{"translate":"This section covers game rules and repeating command\nblocks.","color":"gold"}]
+tellraw @a [{"text":"\n"},{"translate":"This section covers game rules and repeating command blocks.","color":"gold"}]

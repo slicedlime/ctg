@@ -1,1 +1,1 @@
-tellraw @a [{"text":"\n"},{"translate":"In order for you to complete these exercises, it is important\nthat you know how to look at the chat and click links in it.","color":"gold"}]
+tellraw @a [{"text":"\n"},{"translate":"In order for you to complete these exercises, it is important that you know how to look at the chat and click links in it.","color":"gold"}]

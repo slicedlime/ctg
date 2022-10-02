@@ -1,1 +1,1 @@
-tellraw @a [{"text":"\n"},{"translate":"Now stand on the diamond block and activate the command\nblock again.", "with": [{"translate":"stand on the diamond block and activate the command\nblock", "color":"green"}], "color":"gold"}]
+tellraw @a [{"text":"\n"},{"translate":"Now stand on the diamond block and activate the command block again.", "with": [{"translate":"stand on the diamond block and activate the command block", "color":"green"}], "color":"gold"}]

@@ -1,2 +1,2 @@
-tellraw @a [{"text":"\n"},{"translate":"If you want to be notified when new sections are added,\nsubscribe to slicedlime on YouTube and make sure to enable\nalerts by clicking on the bell icon.","color":"gold"}]
+tellraw @a [{"text":"\n"},{"translate":"If you want to be notified when new sections are added, subscribe to slicedlime on YouTube and make sure to enable alerts by clicking on the bell icon.","color":"gold"}]
 tellraw @a [{"translate":"[Subscribe to slicedlime]","color":"yellow","with":[{"translate":"Subscribe to slicedlime","color":"yellow","underlined":true}],"clickEvent":{"action":"open_url","value":"https://www.youtube.com/slicedlime?sub_confirmation=1"},"hoverEvent":{"action":"show_text","value":{"translate":"Subscribe to slicedlime"}}}]

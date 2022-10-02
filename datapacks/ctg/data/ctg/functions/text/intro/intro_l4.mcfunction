@@ -1,1 +1,1 @@
-tellraw @a [{"text":"\n"},{"translate":"Each section of exercises correspond to a tutorial video.\nWhenever you are stuck, click the link to the video.","color":"gold"}]
+tellraw @a [{"text":"\n"},{"translate":"Each section of exercises correspond to a tutorial video. Whenever you are stuck, click the link to the video.","color":"gold"}]
