@@ -1,2 +1,2 @@
 tellraw @a [{"text":"\n"},{"translate":"To see the tutorial video for this section, click the link below.","color":"gold"}]
-tellraw @a [{"text":""},{"translate":"[Command Basics 1 Tutorial]","color":"yellow","with":[{"translate":"Command Basics 1 Tutorial","color":"yellow","underlined":true}],"clickEvent":{"action":"open_url","value":"http://video1"},"hoverEvent":{"action":"show_text","value":{"translate":"Watch Tutorial Video"}}}]
+tellraw @a [{"text":""},{"translate":"[Command Basics Tutorial]","color":"yellow","with":[{"translate":"Command Basics Tutorial","color":"yellow","underlined":true}],"clickEvent":{"action":"open_url","value":"https://youtu.be/iurIhHVK-hk"},"hoverEvent":{"action":"show_text","value":{"translate":"Watch Tutorial Video"}}}]
