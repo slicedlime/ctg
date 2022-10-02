@@ -1,0 +1,10 @@
+{
+    "ctg.complete": {
+        "sounds": [
+            {
+                "name": "ctg/complete"
+            }
+        ],
+        "category": "master"
+    }
+}
