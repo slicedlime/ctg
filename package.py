@@ -95,7 +95,6 @@ def make_datapack(folder, lesson):
     process_file(folder + '/ctg/data/ctg/functions/check_version_done.mcfunction', {
         '$EPISODE': str(lesson)
     })
-    
 
     # Create pack zip
     pack_file = folder + '/ctg.zip'
