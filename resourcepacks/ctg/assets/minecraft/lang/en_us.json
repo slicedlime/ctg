@@ -190,5 +190,11 @@
 
     "Now summon a Polar Bear": "Now %s",
     "summon a Polar Bear": "summon a Polar Bear",
-    "Summon a Polar Bear": "Summon a Polar Bear"
+    "Summon a Polar Bear": "Summon a Polar Bear",
+
+    "There are a couple of copper blocks now - place a chain of two blocks on top of them, starting on the unoxidized block.": "There are a couple of copper blocks now - place a chain of two blocks on top of them, starting on the unoxidized block.",
+    "Make the chain replace the block below the first command block with a mud block.": "Make the chain replace the block below the first command block with a mud block.",
+    "If that is successful, also make it give you a diamond shovel. When you are done, activate the chain.": "%s When you are done, activate the chain.",
+    "If that is successful, also make it give you a diamond shovel.": "If that is successful, also make it give you a diamond shovel.",
+    "Make a chain that sets a mud block and gives a diamond shovel if successful": "Make a chain that sets a mud block and gives a diamond shovel if successful"
 }

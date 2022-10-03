@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"If that is successful, also make it give you a diamond shovel. When you are done, activate the chain.", "color":"gold", "with": [{"translate": "If that is successful, also make it give you a diamond shovel.", "color": "green"}]}]
