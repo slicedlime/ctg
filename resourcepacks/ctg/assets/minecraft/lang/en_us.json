@@ -186,5 +186,9 @@
     "Now place a command block that teleports you 3 blocks above it on the emerald block.": "Now %s on the emerald block.",
     "place a command block that teleports you 3 blocks above it": "place a command block that teleports you 3 blocks above it",
     "When you are done, activate the command block in survival mode.": "When you are done, activate the command block in survival mode.",
-    "Teleport 3 blocks above the command block in survival mode": "Teleport 3 blocks above the command block in survival mode"
+    "Teleport 3 blocks above the command block in survival mode": "Teleport 3 blocks above the command block in survival mode",
+
+    "Now summon a Polar Bear": "Now %s",
+    "summon a Polar Bear": "summon a Polar Bear",
+    "Summon a Polar Bear": "Summon a Polar Bear"
 }
