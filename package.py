@@ -10,6 +10,12 @@ from zipfile import ZipFile
 BUILD_PREFIX = 'build/'
 OUTPUT_PREFIX = 'output/'
 
+def rm(path):
+    if os.path.isdir(path) and not os.path.islink(path):
+        shutil.rmtree(path)
+    elif os.path.exists(path):
+        os.remove(path)
+
 def zip(zip_filename, folder, excludes = []):
     with ZipFile(zip_filename, 'w') as zip:
         # Iterate over all the files in directory
@@ -39,7 +45,7 @@ def strip_lesson_folders(parent_folder, lesson):
     for sfolder in lesson_folders:
         folder_lesson = int(sfolder[6:])
         if folder_lesson > lesson:
-            shutil.rmtree(parent_folder + '/' + sfolder)
+            rm(parent_folder + '/' + sfolder)
 
 def mirror_dir(name, folder):
     dir_util.copy_tree(name,  folder + '/' + name)
@@ -84,6 +90,12 @@ def make_datapack(folder, lesson):
                     continue
             file.write(line)
         file.write('execute if score Lesson _ctg_main matches ' + str(lesson + 1) + ' if score Exercise _ctg_main matches 0 run function ctg:next_episode/intro\n')
+    
+    # Rewrite latest version checker
+    process_file(folder + '/ctg/data/ctg/functions/check_version_done.mcfunction', {
+        '$EPISODE': str(lesson)
+    })
+    
 
     # Create pack zip
     pack_file = folder + '/ctg.zip'
@@ -165,7 +177,7 @@ def make_upgrade_zip(folder, pack_path, resource_zip_path, output_path):
 
 def package_lesson(end_lesson):
     lesson_folder = BUILD_PREFIX + 'Lesson%02d' % end_lesson
-    shutil.rmtree(lesson_folder)
+    rm(lesson_folder)
     pack_folder = lesson_folder + '/Pack'
     pack_path = make_datapack(pack_folder, end_lesson)
 
@@ -183,6 +195,8 @@ def package_lesson(end_lesson):
     shutil.copyfile(upgrade_zip_path, output_path + '/Upgrade.zip')
     shutil.copyfile(world_zip_path, output_path + '/CommandTrainingGrounds.zip')
 
-lesson_count = 2
+lesson_count = 0
+while os.path.isdir('datapacks/ctg/data/ctg/functions/lesson' + str(lesson_count + 1)):
+    lesson_count += 1
 for end_lesson in range(lesson_count + 1):
     package_lesson(end_lesson)
