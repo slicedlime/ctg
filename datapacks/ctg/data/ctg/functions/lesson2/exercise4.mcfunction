@@ -28,5 +28,6 @@ execute if score Lesson _ctg_main matches 2 if score Exercise _ctg_main matches 
 execute if score Lesson _ctg_main matches 2 if score Exercise _ctg_main matches 4 if score ExpectedCookies _ctg_main matches 350 run function ctg:store
 
 execute if score Lesson _ctg_main matches 3 if score Exercise _ctg_main matches 0 if score ExpectedCookies _ctg_main matches 350 run fill 14 100 -50 50 120 -15 air replace repeating_command_block
+execute if score Lesson _ctg_main matches 3 if score Exercise _ctg_main matches 0 if score ExpectedCookies _ctg_main matches 350 run fill 14 121 -50 50 140 -15 air replace repeating_command_block
 
 execute if score Lesson _ctg_main matches 3 if score Exercise _ctg_main matches 0 if score ExpectedCookies _ctg_main matches 350 run scoreboard players reset ExpectedCookies _ctg_main
