@@ -204,5 +204,9 @@
     "You know the drill - new copper blocks, time for a new chain. Use only relative coordinates in this one.": "You know the drill - new copper blocks, time for a new chain. Use only relative coordinates in this one.",
     "Make the chain place three blocks on top of each other above the first block, iron, gold and diamond from the bottom up.": "Make the chain place three blocks on top of each other above the first block, iron, gold and diamond from the bottom up.",
     "Make a chain placing iron, gold and diamond blocks above the first block": "Make a chain placing iron, gold and diamond blocks above the first block",
-    "When you are done, activate the chain.": "When you are done, activate the chain."
+    "When you are done, activate the chain.": "When you are done, activate the chain.",
+
+    "There's a lapis and copper block setup now - make a repeating chain this time.": "There's a lapis and copper block setup now - make a repeating chain this time.",
+    "Make the chain place a bookshelf above the second block in the chain, and summon an xp orb on top of the bookshelf if that was successful.": "Make the chain place a bookshelf above the second block in the chain, and summon an xp orb on top of the bookshelf if that was successful.",
+    "Make a repeating chain placing iron above the 2nd block, summon xp if successful": "Make a repeating chain placing iron above the 2nd block, summon xp if successful"
 }
