@@ -20,8 +20,6 @@ execute if score Tick _ctg_main matches 1 run fill -15 114 48 -15 114 49 air rep
 scoreboard players set Completed _ctg_scratch 0
 execute if score Lesson _ctg_main matches 4 if score Exercise _ctg_main matches 8 if entity @a[tag=_ctg_l4e8_check] if block 1024 17 1024 bookshelf if block 1024 17 1025 air if block 1024 33 1034 bookshelf if block 1024 33 1035 air positioned 1024.5 34.0 1035.0 if entity @e[type=experience_orb,distance=..1] positioned 1024.5 18.0 1024.5 unless entity @e[type=experience_orb,distance=..1] run scoreboard players set Completed _ctg_scratch 1
 
-execute if score Lesson _ctg_main matches 4 if score Exercise _ctg_main matches 8 if entity @a[tag=_ctg_l4e8_check] if block 1024 17 1024 bookshelf if block 1024 17 1025 air if block 1024 33 1034 bookshelf if block 1024 33 1035 air run say blocks right
-
 tag @a remove _ctg_l4e8_check
 
 execute if score ButtonPressed _ctg_scratch matches 1 if block -15 114 49 repeating_command_block if block -15 114 48 chain_command_block[conditional=true] run function ctg:lesson4/exercise8_check

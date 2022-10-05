@@ -10,4 +10,4 @@ execute if score Lesson _ctg_main matches 4 if score Completed _ctg_scratch matc
 execute if score Lesson _ctg_main matches 4 if score Completed _ctg_scratch matches 1 run scoreboard players set Tick _ctg_scratch 0
 execute if score Lesson _ctg_main matches 4 if score Completed _ctg_scratch matches 1 run function ctg:store
 
-execute if score Lesson _ctg_main matches 4 if score Completed _ctg_scratch matches 1 run function ctg:complete
+execute if score Lesson _ctg_main matches 4 if score Completed _ctg_scratch matches 1 run function ctg:completed
