@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "ctg:restart_exercise",
-    "ctg:safety/start_wait_load",
-    "ctg:check_version"
+    "ctg:safety/start_wait_load"
   ]
 }
