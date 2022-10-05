@@ -13,7 +13,7 @@ execute if score Tick _ctg_main matches 1 run setblock -21 112 39 minecraft:snow
 
 # Win condition
 execute if block -27 113 45 command_block run data modify block -27 113 45 UpdateLastExecution set value 1
-execute store success score CommandExecuted _ctg_scratch run data modify storage ctg:l4e1 LastExecution set from block -27 113 45 LastExecution
+execute store success score CommandExecuted _ctg_scratch run data modify storage ctg:l4e6 LastExecution set from block -27 113 45 LastExecution
 
 scoreboard players set Completed _ctg_scratch 0
 execute if score Lesson _ctg_main matches 4 if score Exercise _ctg_main matches 6 if entity @a[tag=_ctg_l4e6_check] if block 1024 100 1024 diamond_block run scoreboard players set Completed _ctg_scratch 1
