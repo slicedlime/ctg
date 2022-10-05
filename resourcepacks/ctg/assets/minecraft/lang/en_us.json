@@ -199,5 +199,10 @@
     "Make a chain that sets a mud block and gives a diamond shovel if successful": "Make a chain that sets a mud block and gives a diamond shovel if successful",
 
     "Place a command block on the new emerald block that sets a diamond block at its own position, but at height 100.": "Place a command block on the new emerald block that sets a diamond block at its own position, but at height 100.",
-    "Make a command block place wool at height 100 at its own location": "Make a command block place wool at height 100 at its own location"
+    "Make a command block place wool at height 100 at its own location": "Make a command block place wool at height 100 at its own location",
+
+    "You know the drill - new copper blocks, time for a new chain. Use only relative coordinates in this one.": "You know the drill - new copper blocks, time for a new chain. Use only relative coordinates in this one.",
+    "Make the chain place three blocks on top of each other above the first block, iron, gold and diamond from the bottom up.": "Make the chain place three blocks on top of each other above the first block, iron, gold and diamond from the bottom up.",
+    "Make a chain placing iron, gold and diamond blocks above the first block": "Make a chain placing iron, gold and diamond blocks above the first block",
+    "When you are done, activate the chain.": "When you are done, activate the chain."
 }
