@@ -231,5 +231,12 @@
 
     "One last gold block before we move on! Replace it with three lit light blue candles.": "One last gold block before we move on! %s.",
     "Replace it with three lit light blue candles": "Replace it with three lit light blue candles",
-    "Replace the gold block with 3 lit light blue candles": "Replace the gold block with 3 lit light blue candles"
+    "Replace the gold block with 3 lit light blue candles": "Replace the gold block with 3 lit light blue candles",
+
+    "Now give yourself a debug stick.": "Now %s.",
+    "give yourself a debug stick": "give yourself a debug stick",
+    "Give yourself a debug stick": "Give yourself a debug stick",
+
+    "Use the debug stick to light the redstone lamp.": "Use the debug stick to light the redstone lamp.",
+    "Use the debug stick to light the redstone lamp": "Use the debug stick to light the redstone lamp"
 }
