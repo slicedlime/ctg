@@ -5,7 +5,6 @@ tag @a remove _ctg_l5e2_check
 
 # Description
 execute if score Tick _ctg_main matches 1 run function ctg:text/lesson5/exercise3_l1
-execute if score Tick _ctg_main matches 80 run function ctg:text/lesson5/exercise3_l2
 function ctg:text/lesson5/exercise3_objective
 
 # Win condition

@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"A new gold block has appeared! Replace it with a waterlogged lower cobblestone slab.", "color":"gold", "with": [{"translate": "Replace it with a waterlogged lower cobblestone slab", "color": "green"}]}]

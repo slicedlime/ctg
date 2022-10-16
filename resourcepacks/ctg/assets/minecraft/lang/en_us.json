@@ -219,5 +219,9 @@
 
     "There's a gold block now. Replace it with a bone block oriented along the Z axis.": "There's a gold block now. %s.",
     "Replace it with a bone block oriented along the Z axis": "Replace it with a bone block oriented along the Z axis",
-    "Replace the gold block with a bone block along the z axis": "Replace the gold block with a bone block along the z axis"
+    "Replace the gold block with a bone block along the z axis": "Replace the gold block with a bone block along the z axis",
+
+    "A new gold block has appeared! Replace it with a waterlogged lower cobblestone slab.": "A new gold block has appeared! %s.",
+    "Replace it with a waterlogged lower cobblestone slab": "Replace it with a waterlogged lower cobblestone slab",
+    "Replace the gold block with a waterlogged lower cobblestone slab": "Replace the gold block with a waterlogged lower cobblestone slab"
 }
