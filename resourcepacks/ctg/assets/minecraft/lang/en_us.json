@@ -211,5 +211,9 @@
 
     "Destroy the netherite block and replace it with air": "Destroy the netherite block and replace it with air",
     "Our first exercise in this section involves destruction! See the netherite block that has appeared?": "Our first exercise in this section involves destruction! See the netherite block that has appeared?",
-    "Destroy that block and replace it with air.": "Destroy that block and replace it with air."
+    "Destroy that block and replace it with air.": "Destroy that block and replace it with air.",
+
+    "There's now an emerald block and a lime stained glass block. Place a command block on the emerald block.": "There's now an emerald block and a lime stained glass block. Place a command block on the emerald block.",
+    "Use relative coordinates to make the command block replace the glass block with a crafting table, but only if that block space is air.": "Use relative coordinates to make the command block replace the glass block with a crafting table, but only if that block space is air.",
+    "Use relative coordinates to replace the glass block with a crafting table if it is air": "Use relative coordinates to replace the glass block with a crafting table if it is air"
 }
