@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"There's now a lectern and an emerald block. Copy the block data of the lectern block and paste it into a command block on top of the emerald block.", "color":"gold", "with": [{"translate": "Copy the block data of the lectern block and paste it into a command block on top of the emerald block", "color": "green"}]}]

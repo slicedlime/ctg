@@ -242,5 +242,10 @@
 
     "There's a sea pickle nearby now. Use the debug stick to make it 4 waterlogged sea pickles.": "There's a sea pickle nearby now. %s.",
     "Use the debug stick to make it 4 waterlogged sea pickles": "Use the debug stick to make it 4 waterlogged sea pickles",
-    "Use the debug stick to make 4 waterlogged sea pickles": "Use the debug stick to make 4 waterlogged sea pickles"
+    "Use the debug stick to make 4 waterlogged sea pickles": "Use the debug stick to make 4 waterlogged sea pickles",
+
+    "For the final exercise in this section you're going to need the copy block data keyboard combination.": "For the final exercise in this section you're going to need the copy block data keyboard combination.",
+    "There's now a lectern and an emerald block. Copy the block data of the lectern block and paste it into a command block on top of the emerald block.": "There's now a lectern and an emerald block. %s.",
+    "Copy the block data of the lectern block and paste it into a command block on top of the emerald block": "Copy the block data of the lectern block and paste it into a command block on top of the emerald block",
+    "Copy the lectern data into a command block on the emerald block": "Copy the lectern data into a command block on the emerald block"
 }
