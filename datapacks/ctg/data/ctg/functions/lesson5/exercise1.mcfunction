@@ -14,7 +14,7 @@ execute if score Lesson _ctg_main matches 5 if score Exercise _ctg_main matches 
 
 # Set blocks
 setblock 47 138 74 minecraft:netherite_block
-execute positioned 47 138 74 run kill @e[type=item,distance=..5]
+execute positioned 47 138 74 unless score Completed _ctg_scratch matches 1 run kill @e[type=item,distance=..5]
 
 execute if score Completed _ctg_scratch matches 1 run function ctg:completed
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Lesson _ctg_scratch 5
