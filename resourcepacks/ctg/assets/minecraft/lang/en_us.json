@@ -215,5 +215,9 @@
 
     "There's now an emerald block and a lime stained glass block. Place a command block on the emerald block.": "There's now an emerald block and a lime stained glass block. Place a command block on the emerald block.",
     "Use relative coordinates to make the command block replace the glass block with a crafting table, but only if that block space is air.": "Use relative coordinates to make the command block replace the glass block with a crafting table, but only if that block space is air.",
-    "Use relative coordinates to replace the glass block with a crafting table if it is air": "Use relative coordinates to replace the glass block with a crafting table if it is air"
+    "Use relative coordinates to replace the glass block with a crafting table if it is air": "Use relative coordinates to replace the glass block with a crafting table if it is air",
+
+    "There's a gold block now. Replace it with a bone block oriented along the Z axis.": "There's a gold block now. %s.",
+    "Replace it with a bone block oriented along the Z axis": "Replace it with a bone block oriented along the Z axis",
+    "Replace the gold block with a bone block along the z axis": "Replace the gold block with a bone block along the z axis"
 }
