@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"There's a sea pickle nearby now. Use the debug stick to make it 4 waterlogged sea pickles.", "color":"gold", "with": [{"translate": "Use the debug stick to make it 4 waterlogged sea pickles", "color": "green"}]}]

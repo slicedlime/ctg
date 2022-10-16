@@ -238,5 +238,9 @@
     "Give yourself a debug stick": "Give yourself a debug stick",
 
     "Use the debug stick to light the redstone lamp.": "Use the debug stick to light the redstone lamp.",
-    "Use the debug stick to light the redstone lamp": "Use the debug stick to light the redstone lamp"
+    "Use the debug stick to light the redstone lamp": "Use the debug stick to light the redstone lamp",
+
+    "There's a sea pickle nearby now. Use the debug stick to make it 4 waterlogged sea pickles.": "There's a sea pickle nearby now. %s.",
+    "Use the debug stick to make it 4 waterlogged sea pickles": "Use the debug stick to make it 4 waterlogged sea pickles",
+    "Use the debug stick to make 4 waterlogged sea pickles": "Use the debug stick to make 4 waterlogged sea pickles"
 }
