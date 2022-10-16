@@ -1,0 +1,2 @@
+tellraw @a [{"text":"\n"},{"translate":"To see the tutorial video for this section, click the link below.","color":"gold"}]
+tellraw @a [{"text":""},{"translate":"[Block States Tutorial]","color":"yellow","with":[{"translate":"Block States Tutorial","color":"yellow","underlined":true}],"clickEvent":{"action":"open_url","value":"Video 5"},"hoverEvent":{"action":"show_text","value":{"translate":"Watch Tutorial Video"}}}]

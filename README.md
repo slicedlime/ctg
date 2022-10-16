@@ -10,4 +10,4 @@ Please use github issues to report any issues found with the map or suggest impr
 
 # Islands
 
-Each lesson takes place on a new floating islands. Islands have been contributed by Ximure, JochCool and Mincerafter - thank you!
+Each lesson takes place on a new floating islands. Islands have been contributed by Ximure, JochCool, Mincerafter and GB - thank you!
