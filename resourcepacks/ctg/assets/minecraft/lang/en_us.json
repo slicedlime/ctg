@@ -227,5 +227,9 @@
 
     "New gold block! Replace this one with an end rod pointing downwards.": "New gold block! %s.",
     "Replace this one with an end rod pointing downwards": "Replace this one with an end rod pointing downwards",
-    "Replace the gold block with an end rod facing downwards": "Replace the gold block with an end rod facing downwards"
+    "Replace the gold block with an end rod facing downwards": "Replace the gold block with an end rod facing downwards",
+
+    "One last gold block before we move on! Replace it with three lit light blue candles.": "One last gold block before we move on! %s.",
+    "Replace it with three lit light blue candles": "Replace it with three lit light blue candles",
+    "Replace the gold block with 3 lit light blue candles": "Replace the gold block with 3 lit light blue candles"
 }

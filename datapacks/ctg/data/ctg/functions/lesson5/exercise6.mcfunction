@@ -3,8 +3,8 @@ function ctg:gamemode/adventure
 clear @a
 
 # Description
-execute if score Tick _ctg_main matches 1 run function ctg:text/lesson5/exercise5_l1
-function ctg:text/lesson5/exercise5_objective
+execute if score Tick _ctg_main matches 1 run function ctg:text/lesson5/exercise6_l1
+function ctg:text/lesson5/exercise6_objective
 
 # Win condition
 scoreboard players set Completed _ctg_scratch 0
