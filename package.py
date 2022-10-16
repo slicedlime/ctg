@@ -90,11 +90,6 @@ def make_datapack(folder, lesson):
                     continue
             file.write(line)
         file.write('execute if score Lesson _ctg_main matches ' + str(lesson + 1) + ' if score Exercise _ctg_main matches 0 run function ctg:next_episode/intro\n')
-    
-    # Rewrite latest version checker
-    process_file(folder + '/ctg/data/ctg/functions/check_version_done.mcfunction', {
-        '$EPISODE': str(lesson)
-    })
 
     # Create pack zip
     pack_file = folder + '/ctg.zip'
