@@ -223,5 +223,9 @@
 
     "A new gold block has appeared! Replace it with a waterlogged lower cobblestone slab.": "A new gold block has appeared! %s.",
     "Replace it with a waterlogged lower cobblestone slab": "Replace it with a waterlogged lower cobblestone slab",
-    "Replace the gold block with a waterlogged lower cobblestone slab": "Replace the gold block with a waterlogged lower cobblestone slab"
+    "Replace the gold block with a waterlogged lower cobblestone slab": "Replace the gold block with a waterlogged lower cobblestone slab",
+
+    "New gold block! Replace this one with an end rod pointing downwards.": "New gold block! %s.",
+    "Replace this one with an end rod pointing downwards": "Replace this one with an end rod pointing downwards",
+    "Replace the gold block with an end rod facing downwards": "Replace the gold block with an end rod facing downwards"
 }
