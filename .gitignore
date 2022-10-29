@@ -11,3 +11,5 @@ stats/*
 level.dat_old
 session.lock
 output/*
+deploy.*
+stage/*
