@@ -12,3 +12,5 @@ execute if score Lesson _ctg_main matches 3 if score Exercise _ctg_main matches 
 execute if score Lesson _ctg_main matches 3 if score Exercise _ctg_main matches 0 run scoreboard players set Exercise _ctg_scratch 1
 execute if score Lesson _ctg_main matches 3 if score Exercise _ctg_main matches 0 run scoreboard players set Tick _ctg_scratch 0
 execute if score Lesson _ctg_main matches 3 if score Exercise _ctg_main matches 0 run function ctg:store
+
+tag @a[tag=_ctg_transition_done] remove _ctg_transition_done

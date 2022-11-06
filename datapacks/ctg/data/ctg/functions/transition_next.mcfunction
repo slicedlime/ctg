@@ -1,9 +1,8 @@
 # Switch to next transition node
 
-kill @e[tag=_ctg_target,scores={_ctg_main=1}]
-scoreboard players remove @e[tag=_ctg_target,scores={_ctg_main=1..}] _ctg_main 1
-
-execute unless entity @e[tag=_ctg_target,scores={_ctg_main=1}] run kill @e[tag=_ctg_spline]
-execute unless entity @e[tag=_ctg_target,scores={_ctg_main=1}] run kill @e[tag=_ctg_eyes]
-execute unless entity @e[tag=_ctg_target,scores={_ctg_main=1}] as @a at @s run spawnpoint @s ~ ~ ~
-tag @e[tag=_ctg_body] remove _ctg_goal_reached
+execute as @a run spectate
+kill @e[tag=_ctg_target]
+kill @e[tag=_ctg_eye_target]
+kill @e[tag=_ctg_view]
+scoreboard objectives add _ctg_intro dummy
+scoreboard players set @a _ctg_intro 0
