@@ -248,5 +248,16 @@
     "For the final exercise in this section you're going to need the copy block data keyboard combination.": "For the final exercise in this section you're going to need the copy block data keyboard combination.",
     "There's now a lectern and an emerald block. Copy the block data of the lectern block and paste it into a command block on top of the emerald block.": "There's now a lectern and an emerald block. %s.",
     "Copy the block data of the lectern block and paste it into a command block on top of the emerald block": "Copy the block data of the lectern block and paste it into a command block on top of the emerald block",
-    "Copy the lectern data into a command block on the emerald block": "Copy the lectern data into a command block on the emerald block"
+    "Copy the lectern data into a command block on the emerald block": "Copy the lectern data into a command block on the emerald block",
+
+    "--------- Lesson 6 ---------":"",
+
+    "Section 6": "Section 6",
+    "Changing the World": "Changing the World",
+    "Section 6 - Changing the World": "Section 6 - Changing the World",
+    "This section covers the fill, clone, time and weather commands and related game rules.": "This section covers the fill, clone, time and weather commands and related game rules.",
+    "[Changing the World Tutorial]": "[%s]",
+    "Changing the World Tutorial": "Changing the World Tutorial",
+
+    "": ""
 }
