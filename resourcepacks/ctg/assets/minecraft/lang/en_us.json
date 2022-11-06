@@ -14,6 +14,9 @@
     "Well done!": "Well done!",
     "Watch Tutorial Video": "Watch Tutorial Video",
 
+    "When you are done, activate the command block.": "When you are done, activate the command block.",
+    "When you are done, press the button on the diamond block.": "When you are done, press the button on the diamond block.",
+
     "--------- Missing Section ---------":"",
 
     "Stand By": "Stand By",
@@ -75,7 +78,6 @@
     "Now, place the command block on the emerald block and make the command block give you a diamond sword.": "Now, place the command block on the emerald block and %s.",
     "make the command block give you a diamond sword": "make the command block give you a diamond sword",
     "Make the command block give you a diamond sword": "Make the command block give you a diamond sword",
-    "When you are done, activate the command block.": "When you are done, activate the command block.",
     
     "Now stand on the diamond block and activate the command block again.": "Now %s again.",
     "stand on the diamond block and activate the command block": "stand on the diamond block and activate the command block",
@@ -153,7 +155,6 @@
 
     "Look - a nice plushie has appeared! Wouldn't it be nicer if we had two of them though?": "Look - a nice plushie has appeared! Wouldn't it be nicer if we had two of them though?",
     "Make a chain starting with an impulse block on the emerald block that makes an identical copy on top of the gold blocks.": "Make a chain starting with an impulse block on the emerald block that makes an identical copy on top of the gold blocks.",
-    "When you are done, press the button on the diamond block.": "When you are done, press the button on the diamond block.",
     "Make a chain that replicates the plushie": "Make a chain that replicates the plushie",
 
     "--------- Lesson 4 ---------":"",
