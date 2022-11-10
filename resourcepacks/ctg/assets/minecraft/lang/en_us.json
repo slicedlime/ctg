@@ -278,5 +278,10 @@
     "replace them and everything in between with nether bricks": "replace them and everything in between with nether bricks",
     "Fill the area between the gold blocks with Nether Bricks": "Fill the area between the gold blocks with Nether Bricks",
 
+    "There is now some nether gold ore in the floor. That isn't so valuable though.": "There is now some nether gold ore in the floor. That isn't so valuable though.",
+    "Use a fill command to replace all of them at once with ancient debris! Make sure to only replace the gold ore.": "%s! Make sure to only replace the gold ore.",
+    "Use a fill command to replace all of them at once with ancient debris": "Use a fill command to replace all of them at once with ancient debris",
+    "Replace the nether gold ore with ancient debris": "Replace the nether gold ore with ancient debris",
+
     "": ""
 }
