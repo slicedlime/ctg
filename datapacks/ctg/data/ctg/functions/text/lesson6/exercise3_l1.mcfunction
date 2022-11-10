@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"Wait a second - it isn't supposed to ever be day in the Nether. Make it midnight forever.", "color":"gold", "with": [{"translate": "Make it midnight forever", "color": "green"}]}]
