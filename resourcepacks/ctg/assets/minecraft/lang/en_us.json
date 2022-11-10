@@ -262,6 +262,10 @@
     "Make the rain stop": "Make the rain stop",
     "What, rain? In the Nether? That's no good. Make it stop.": "What, rain? In the Nether? That's no good. %s.",
     "Make it stop": "Make it stop",
-    
+
+    "The time has stopped passing! Time to do something about that. Make time pass again.": "The time has stopped passing! Time to do something about that. %s.",
+    "Make time pass again": "Make time pass again",
+    "Make time pass": "Make time pass",
+
     "": ""
 }

@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"The time has stopped passing! Time to do something about that. Make time pass again.", "color":"gold", "with": [{"translate": "Make time pass again", "color": "green"}]}]
