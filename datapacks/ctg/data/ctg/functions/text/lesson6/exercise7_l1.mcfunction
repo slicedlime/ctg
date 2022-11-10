@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"There are three iron blocks now. Replace them with chain blocks in such a way that it makes one long connected chain.", "color":"gold", "with": [{"translate": "Replace them with chain blocks", "color": "green"}]}]

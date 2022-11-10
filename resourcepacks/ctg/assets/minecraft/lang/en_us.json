@@ -283,5 +283,9 @@
     "Use a fill command to replace all of them at once with ancient debris": "Use a fill command to replace all of them at once with ancient debris",
     "Replace the nether gold ore with ancient debris": "Replace the nether gold ore with ancient debris",
 
+    "There are three iron blocks now. Replace them with chain blocks in such a way that it makes one long connected chain.": "There are three iron blocks now. %s in such a way that it makes one long connected chain.",
+    "Replace them with chain blocks": "Replace them with chain blocks",
+    "Replace the iron blocks with three connected chains": "Replace the iron blocks with three connected chains",
+
     "": ""
 }
