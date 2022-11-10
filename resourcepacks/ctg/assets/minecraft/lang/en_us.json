@@ -273,5 +273,10 @@
     "This Nether needs more fire! Make it thunder forever!": "This Nether needs more fire! %s!",
     "Make it thunder forever": "Make it thunder forever",
 
+    "There are now two gold blocks in the floor. See them?": "There are now two gold blocks in the floor. See them?",
+    "Your next task is to replace them and everything in between with nether bricks!": "Your next task is to %s!",
+    "replace them and everything in between with nether bricks": "replace them and everything in between with nether bricks",
+    "Fill the area between the gold blocks with Nether Bricks": "Fill the area between the gold blocks with Nether Bricks",
+
     "": ""
 }

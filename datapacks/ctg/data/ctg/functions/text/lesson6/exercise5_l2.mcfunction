@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"Your next task is to replace them and everything in between with nether bricks!", "color":"gold", "with": [{"translate": "replace them and everything in between with nether bricks", "color": "green"}]}]
