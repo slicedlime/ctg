@@ -259,5 +259,9 @@
     "[Changing the World Tutorial]": "[%s]",
     "Changing the World Tutorial": "Changing the World Tutorial",
 
+    "Make the rain stop": "Make the rain stop",
+    "What, rain? In the Nether? That's no good. Make it stop.": "What, rain? In the Nether? That's no good. %s.",
+    "Make it stop": "Make it stop",
+    
     "": ""
 }

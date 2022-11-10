@@ -2,6 +2,8 @@ function ctg:gamemode/spectator
 execute if entity @a[tag=_ctg_need_transition] run function ctg:lesson6/transition_setup
 function ctg:transition
 execute as @a[scores={_ctg_intro=0..}] run function ctg:lesson6/transition_spline
+execute as @a[scores={_ctg_intro=50}] run weather rain
+gamerule doWeatherCycle false
 
 execute if score Tick _ctg_main matches 110 run function ctg:text/lesson6/intro_title
 execute if score Tick _ctg_main matches 200 run function ctg:text/lesson6/intro_l1
