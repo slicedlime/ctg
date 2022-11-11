@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"You better replace it with a hollow box made of orange stained glass!", "color":"gold", "with": [{"translate": "replace it with a hollow box made of orange stained glass", "color": "green"}]}]
