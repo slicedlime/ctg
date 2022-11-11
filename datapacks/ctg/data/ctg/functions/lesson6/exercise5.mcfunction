@@ -10,11 +10,17 @@ execute if score Tick _ctg_main matches 1 run function ctg:text/lesson6/exercise
 execute if score Tick _ctg_main matches 80 run function ctg:text/lesson6/exercise5_l2
 function ctg:text/lesson6/exercise5_objective
 
-fill 1024 10 1024 1027 10 1027 nether_bricks
+fill 1024 10 1024 1029 10 1029 netherrack
+fill 1025 10 1025 1028 10 1028 nether_bricks
+fill 1024 11 1024 1029 11 1029 netherrack
+setblock 1025 11 1025 gold_block
+setblock 1028 11 1028 gold_block
+
+execute if score Tick _ctg_main matches 1 run clone 1024 11 1024 1029 11 1029 95 129 20
 
 # Win condition
 scoreboard players set Completed _ctg_scratch 0
-execute if blocks 96 129 21 99 129 24 1024 10 1024 all run scoreboard players set Completed _ctg_scratch 1
+execute if blocks 95 129 20 100 129 25 1024 10 1024 all run scoreboard players set Completed _ctg_scratch 1
 
 execute if score Completed _ctg_scratch matches 1 run function ctg:completed
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Lesson _ctg_scratch 6
@@ -23,7 +29,5 @@ execute if score Completed _ctg_scratch matches 1 run scoreboard players set Tic
 execute if score Completed _ctg_scratch matches 1 run function ctg:store
 
 # Set blocks
-fill 1024 11 1024 1027 11 1027 netherrack
-setblock 1024 11 1024 gold_block
-setblock 1027 11 1027 gold_block
-execute if score Completed _ctg_scratch matches 0 unless blocks 96 129 21 99 129 24 1024 11 1024 all run clone 1024 11 1024 1027 11 1027 96 129 21
+execute if score Completed _ctg_scratch matches 0 unless blocks 95 129 20 100 129 25 1024 11 1024 all run function ctg:text/lesson6/wrong_blocks
+execute if score Completed _ctg_scratch matches 0 unless blocks 95 129 20 100 129 25 1024 11 1024 all run clone 1024 11 1024 1029 11 1029 95 129 20

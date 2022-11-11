@@ -1,6 +1,6 @@
 # Player state
 function ctg:gamemode/adventure
-clear @a
+execute if score Tick _ctg_main matches 1 run clear @a
 execute if score Tick _ctg_main matches 1 run fill 1024 10 1024 1027 11 1027 air
 
 fill 1024 10 1024 1026 10 1026 netherrack
@@ -9,6 +9,7 @@ setblock 1025 10 1024 nether_gold_ore
 setblock 1024 10 1026 nether_gold_ore
 clone 1024 10 1024 1026 10 1026 1024 11 1024
 fill 1024 11 1024 1026 11 1026 ancient_debris replace nether_gold_ore
+execute if score Tick _ctg_main matches 1 run clone 1024 10 1024 1026 10 1026 98 129 26
 
 # Description
 execute if score Tick _ctg_main matches 1 run function ctg:text/lesson6/exercise6_l1
@@ -27,4 +28,5 @@ execute if score Completed _ctg_scratch matches 1 run function ctg:store
 
 # Set blocks
 
-execute if score Completed _ctg_scratch matches 0 run clone 1024 10 1024 1026 10 1026 98 129 26
+execute if score Completed _ctg_scratch matches 0 unless blocks 1024 10 1024 1026 10 1026 98 129 26 all run function ctg:text/lesson6/wrong_blocks
+execute if score Completed _ctg_scratch matches 0 unless blocks 1024 10 1024 1026 10 1026 98 129 26 all run clone 1024 10 1024 1026 10 1026 98 129 26

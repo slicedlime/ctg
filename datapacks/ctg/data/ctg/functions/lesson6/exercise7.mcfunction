@@ -9,7 +9,13 @@ function ctg:text/lesson6/exercise7_objective
 
 # Win condition
 scoreboard players set Completed _ctg_scratch 0
-execute if block 101 129 24 chain[axis=z] if block 101 129 23 chain[axis=z] if block 101 129 22 chain[axis=z] run scoreboard players set Completed _ctg_scratch 1
+fill 1024 10 1024 1026 11 1028 netherrack
+fill 1024 10 1024 1026 11 1028 netherrack
+fill 1025 10 1025 1025 10 1027 iron_block
+fill 1025 11 1025 1025 11 1027 chain[axis=z]
+execute if score Tick _ctg_main matches 1 run clone 1024 10 1024 1026 10 1028 100 129 21
+
+execute if blocks 1024 11 1024 1026 11 1028 100 129 21 all run scoreboard players set Completed _ctg_scratch 1
 
 execute if score Completed _ctg_scratch matches 1 run function ctg:completed
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Lesson _ctg_scratch 6
@@ -19,4 +25,5 @@ execute if score Completed _ctg_scratch matches 1 run function ctg:store
 
 # Set blocks
 
-execute if score Completed _ctg_scratch matches 0 run fill 101 129 24 101 129 22 iron_block
+execute if score Completed _ctg_scratch matches 0 unless blocks 1024 10 1024 1026 10 1028 100 129 21 all run function ctg:text/lesson6/wrong_blocks
+execute if score Completed _ctg_scratch matches 0 unless blocks 1024 10 1024 1026 10 1028 100 129 21 all run clone 1024 10 1024 1026 10 1028 100 129 21
