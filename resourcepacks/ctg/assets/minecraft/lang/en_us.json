@@ -299,5 +299,10 @@
     "replace it with a hollow box made of orange stained glass": "replace it with a hollow box made of orange stained glass",
     "Replace the mess with a hollow box of orange glass": "Replace the mess with a hollow box of orange glass",
 
+    "Enough of that. What do you think about my statue? I'm quite proud of it.": "Enough of that. What do you think about my statue? I'm quite proud of it.",
+    "In fact, I think it needs a display case. Please make a yellow glass box around it.": "In fact, I think it needs a display case. Please %s.",
+    "make a yellow glass box around it": "make a yellow glass box around it",
+    "Surround the statue with a yellow glass box": "Surround the statue with a yellow glass box",
+
     "": ""
 }

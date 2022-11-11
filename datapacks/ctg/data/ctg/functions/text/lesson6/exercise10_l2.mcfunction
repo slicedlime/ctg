@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"In fact, I think it needs a display case. Please make a yellow glass box around it.", "color":"gold", "with": [{"translate": "make a yellow glass box around it", "color": "green"}]}]
