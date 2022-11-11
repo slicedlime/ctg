@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"Create a red stained glass outline in the volume between the shroomlights. It should end up surrounding the red nether bricks and replacing the shroomlights.", "color":"gold", "with": [{"translate": "Create a red stained glass outline in the volume between the shroomlights", "color": "green"}]}]

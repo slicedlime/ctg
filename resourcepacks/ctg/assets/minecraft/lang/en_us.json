@@ -289,5 +289,10 @@
     "Replace them with chain blocks": "Replace them with chain blocks",
     "Replace the iron blocks with three connected chains": "Replace the iron blocks with three connected chains",
 
+    "Some blocks have shown up in the air - a sculpture of shroomlights and red nether bricks.": "Some blocks have shown up in the air - a sculpture of shroomlights and red nether bricks.",
+    "Create a red stained glass outline in the volume between the shroomlights. It should end up surrounding the red nether bricks and replacing the shroomlights.": "%s. It should end up surrounding the red nether bricks and replacing the shroomlights.",
+    "Create a red stained glass outline in the volume between the shroomlights": "Create a red stained glass outline in the volume between the shroomlights",
+    "Make a red glass outline in the volume between the shroomlights": "Make a red glass outline in the volume between the shroomlights",
+
     "": ""
 }
