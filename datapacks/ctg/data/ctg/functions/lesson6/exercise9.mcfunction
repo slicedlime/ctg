@@ -11,7 +11,7 @@ function ctg:text/lesson6/exercise9_objective
 # Win condition
 scoreboard players set Completed _ctg_scratch 0
 
-place template ctg:messy_box 1024 10 1024
+place template ctg:lesson6/messy_box 1024 10 1024
 fill 1024 15 1024 1028 18 1030 orange_stained_glass
 execute if score Tick _ctg_main matches 1 run clone 1024 10 1024 1028 13 1030 91 133 19
 
