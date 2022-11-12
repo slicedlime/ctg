@@ -2,6 +2,7 @@
 execute if score Tick _ctg_main matches 1 run function ctg:gamemode/creative
 execute if score Tick _ctg_main matches 1 run clear @a
 execute if score Tick _ctg_main matches 1 run fill 1024 10 1024 1030 30 1030 air
+tag @a remove _ctg_l6e12_check
 
 # Description
 execute if score Tick _ctg_main matches 1 run function ctg:text/lesson6/exercise13_l1
