@@ -323,5 +323,10 @@
     "Copy all the non-air blocks of that plushie into this water": "Copy all the non-air blocks of that plushie into this water",
     "Copy the plushie into the water": "Copy the plushie into the water",
 
+    "Look! Diamonds! In case of emergency - break glass, right? But wait, maybe we can get them without breaking anything.": "Look! Diamonds! In case of emergency - break glass, right? But wait, maybe we can get them without breaking anything.",
+    "Place a command block on the emerald block. Make it clone only the diamond blocks to on top of the command block itself, regardless of where that command block is placed.": "Place a command block on the emerald block. Make it %s, regardless of where that command block is placed.",
+    "clone only the diamond blocks to on top of the command block itself": "clone only the diamond blocks to on top of the command block itself",
+    "Make a command block that copies only the diamonds on top of itself": "Make a command block that copies only the diamonds on top of itself",
+
     "": ""
 }
