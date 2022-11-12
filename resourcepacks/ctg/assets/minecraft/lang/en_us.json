@@ -313,5 +313,9 @@
     "clone the entire pillar to be on top of the command block itself": "clone the entire pillar to be on top of the command block itself",
     "Make a command block that clones the pillar on top of itself": "Make a command block that clones the pillar on top of itself",
 
+    "Oooh, our favorite plushie is back! It's floating off the floor though - that's no good. Move it one block down.": "Oooh, our favorite plushie is back! It's floating off the floor though - that's no good. %s.",
+    "Move it one block down": "Move it one block down",
+    "Move the plushie one block down": "Move the plushie one block down",
+
     "": ""
 }
