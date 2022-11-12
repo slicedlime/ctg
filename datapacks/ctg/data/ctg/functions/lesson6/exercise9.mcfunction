@@ -12,7 +12,7 @@ function ctg:text/lesson6/exercise9_objective
 scoreboard players set Completed _ctg_scratch 0
 
 place template ctg:lesson6/messy_box 1024 10 1024
-fill 1024 15 1024 1028 18 1030 orange_stained_glass
+fill 1024 15 1024 1028 18 1030 orange_stained_glass hollow
 execute if score Tick _ctg_main matches 1 run clone 1024 10 1024 1028 13 1030 91 133 19
 
 execute if score Lesson _ctg_main matches 6 if score Exercise _ctg_main matches 9 if blocks 1024 15 1024 1028 18 1030 91 133 19 all run scoreboard players set Completed _ctg_scratch 1
