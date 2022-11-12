@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"Look around - there's now a quartz pillar and an emerald block in the floor. For your next task, place a command block on top of the emerald block.", "color":"gold"}]

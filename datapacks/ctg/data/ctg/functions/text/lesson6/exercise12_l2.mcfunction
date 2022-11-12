@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"Make the command block clone the entire pillar to be on top of the command block itself.", "color":"gold", "with": [{"translate": "clone the entire pillar to be on top of the command block itself", "color": "green"}]}]
