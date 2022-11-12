@@ -318,5 +318,10 @@
     "Move it one block down": "Move it one block down",
     "Move the plushie one block down": "Move the plushie one block down",
 
+    "You know what this Nether needs more of? Water! And bathing plushies!": "You know what this Nether needs more of? Water! And bathing plushies!",
+    "Copy all the non-air blocks of that plushie into this water.": "%s.",
+    "Copy all the non-air blocks of that plushie into this water": "Copy all the non-air blocks of that plushie into this water",
+    "Copy the plushie into the water": "Copy the plushie into the water",
+
     "": ""
 }

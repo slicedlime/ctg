@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"Copy all the non-air blocks of that plushie into this water.", "color":"gold", "with": [{"translate": "Copy all the non-air blocks of that plushie into this water", "color": "green"}]}]
