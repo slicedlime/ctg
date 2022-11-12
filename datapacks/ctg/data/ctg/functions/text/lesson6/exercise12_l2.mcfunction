@@ -1,1 +1,1 @@
-tellraw @a [{"text":"\n"},{"translate":"Make the command block clone the entire pillar to be on top of the command block itself.", "color":"gold", "with": [{"translate": "clone the entire pillar to be on top of the command block itself", "color": "green"}]}]
+tellraw @a [{"text":"\n"},{"translate":"Make the command block clone the entire pillar to be on top of the command block itself, regardless of where it is placed.", "color":"gold", "with": [{"translate": "clone the entire pillar to be on top of the command block itself", "color": "green"}]}]

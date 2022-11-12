@@ -310,7 +310,7 @@
     "Replace all the leaves on the tree with warped wart blocks": "Replace all the leaves on the tree with warped wart blocks",
 
     "Look around - there's now a quartz pillar and an emerald block in the floor. For your next task, place a command block on top of the emerald block.": "Look around - there's now a quartz pillar and an emerald block in the floor. For your next task, place a command block on top of the emerald block.",
-    "Make the command block clone the entire pillar to be on top of the command block itself.": "Make the command block %s.",
+    "Make the command block clone the entire pillar to be on top of the command block itself, regardless of where it is placed": "Make the command block %s, regardless of where it is placed.",
     "clone the entire pillar to be on top of the command block itself": "clone the entire pillar to be on top of the command block itself",
     "Make a command block that clones the pillar on top of itself": "Make a command block that clones the pillar on top of itself",
 
