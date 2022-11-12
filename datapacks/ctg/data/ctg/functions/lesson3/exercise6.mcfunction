@@ -16,15 +16,7 @@ setblock -21 124 -39 minecraft:diamond_block
 execute unless block -21 125 -39 polished_blackstone_button run setblock -21 125 -39 minecraft:polished_blackstone_button[face=floor,facing=west]
 
 # Set the statue
-fill -27 125 -34 -26 127 -32 gray_wool
-fill -27 128 -32 -26 128 -34 air
-setblock -27 128 -34 minecraft:gray_wool
-setblock -27 128 -32 minecraft:gray_wool
-fill -26 125 -34 -27 125 -34 white_wool
-fill -26 125 -32 -27 125 -32 white_wool
-setblock -26 126 -32 minecraft:light_blue_wool
-setblock -26 126 -34 minecraft:light_blue_wool
-setblock -26 125 -33 minecraft:pink_wool
+place template ctg:plushie -27 125 -34
 
 execute if score L3E6Test _ctg_main matches 1.. run scoreboard players add L3E6Test _ctg_main 1
 
