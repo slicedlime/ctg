@@ -13,7 +13,7 @@ function ctg:text/lesson6/exercise1_objective
 # Win condition
 tag @a[predicate=ctg:raining] add _ctg_l6e1_ready
 scoreboard players set Completed _ctg_scratch 0
-execute if entity @p[predicate=!ctg:raining,tag=_ctg_l6e1_ready] run scoreboard players set Completed _ctg_scratch 1
+execute if score Lesson _ctg_main matches 6 if score Exercise _ctg_main matches 1 if entity @p[predicate=!ctg:raining,tag=_ctg_l6e1_ready] run scoreboard players set Completed _ctg_scratch 1
 
 execute if score Completed _ctg_scratch matches 1 run function ctg:completed
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Lesson _ctg_scratch 6

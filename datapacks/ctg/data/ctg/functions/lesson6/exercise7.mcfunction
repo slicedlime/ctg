@@ -15,7 +15,7 @@ fill 1025 10 1025 1025 10 1027 iron_block
 fill 1025 11 1025 1025 11 1027 chain[axis=z]
 execute if score Tick _ctg_main matches 1 run clone 1024 10 1024 1026 10 1028 100 129 21
 
-execute if blocks 1024 11 1024 1026 11 1028 100 129 21 all run scoreboard players set Completed _ctg_scratch 1
+execute if score Lesson _ctg_main matches 6 if score Exercise _ctg_main matches 7 if blocks 1024 11 1024 1026 11 1028 100 129 21 all run scoreboard players set Completed _ctg_scratch 1
 
 execute if score Completed _ctg_scratch matches 1 run function ctg:completed
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Lesson _ctg_scratch 6

@@ -18,7 +18,7 @@ function ctg:text/lesson6/exercise6_objective
 
 # Win condition
 scoreboard players set Completed _ctg_scratch 0
-execute if blocks 1024 11 1024 1026 11 1026 98 129 26 all run scoreboard players set Completed _ctg_scratch 1
+execute if score Lesson _ctg_main matches 6 if score Exercise _ctg_main matches 6 if blocks 1024 11 1024 1026 11 1026 98 129 26 all run scoreboard players set Completed _ctg_scratch 1
 
 execute if score Completed _ctg_scratch matches 1 run function ctg:completed
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Lesson _ctg_scratch 6

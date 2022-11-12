@@ -12,7 +12,7 @@ function ctg:text/lesson6/exercise4_objective
 # Win condition
 scoreboard players set Completed _ctg_scratch 0
 execute store result score WeatherOn _ctg_scratch run gamerule doWeatherCycle
-execute if score WeatherOn _ctg_scratch matches 0 if entity @p[predicate=ctg:thundering] run scoreboard players set Completed _ctg_scratch 1
+execute if score Lesson _ctg_main matches 6 if score Exercise _ctg_main matches 4 if score WeatherOn _ctg_scratch matches 0 if entity @p[predicate=ctg:thundering] run scoreboard players set Completed _ctg_scratch 1
 
 execute if score Completed _ctg_scratch matches 1 run function ctg:completed
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Lesson _ctg_scratch 6

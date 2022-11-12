@@ -16,7 +16,7 @@ clone 1024 10 1024 1028 15 1028 1024 20 1024
 fill 1024 20 1024 1028 25 1028 yellow_stained_glass outline
 execute if score Tick _ctg_main matches 1 run clone 1024 10 1024 1028 15 1028 92 132 21
 
-execute if blocks 1024 20 1024 1028 25 1028 92 132 21 all run scoreboard players set Completed _ctg_scratch 1
+execute if score Lesson _ctg_main matches 6 if score Exercise _ctg_main matches 10 if blocks 1024 20 1024 1028 25 1028 92 132 21 all run scoreboard players set Completed _ctg_scratch 1
 
 execute if score Completed _ctg_scratch matches 1 run function ctg:completed
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Lesson _ctg_scratch 6

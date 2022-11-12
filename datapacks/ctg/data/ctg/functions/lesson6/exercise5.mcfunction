@@ -20,7 +20,7 @@ execute if score Tick _ctg_main matches 1 run clone 1024 11 1024 1029 11 1029 95
 
 # Win condition
 scoreboard players set Completed _ctg_scratch 0
-execute if blocks 95 129 20 100 129 25 1024 10 1024 all run scoreboard players set Completed _ctg_scratch 1
+execute if score Lesson _ctg_main matches 6 if score Exercise _ctg_main matches 5 if blocks 95 129 20 100 129 25 1024 10 1024 all run scoreboard players set Completed _ctg_scratch 1
 
 execute if score Completed _ctg_scratch matches 1 run function ctg:completed
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Lesson _ctg_scratch 6
