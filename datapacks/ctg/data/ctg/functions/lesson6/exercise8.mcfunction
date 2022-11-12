@@ -5,6 +5,7 @@ execute if score Tick _ctg_main matches 1 run fill 1024 10 1024 1027 11 1027 air
 
 # Description
 execute if score Tick _ctg_main matches 1 run function ctg:text/lesson6/exercise8_l1
+execute if score Tick _ctg_main matches 80 run function ctg:text/lesson6/exercise8_l2
 function ctg:text/lesson6/exercise8_objective
 
 # Win condition
