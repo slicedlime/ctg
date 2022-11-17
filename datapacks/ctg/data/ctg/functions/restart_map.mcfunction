@@ -13,6 +13,7 @@ execute positioned -32 101 -42 run fill ~ ~ ~ ~31 ~31 ~31 air
 execute positioned -35 103 22 run fill ~ ~ ~ ~31 ~31 ~31 air
 execute positioned 32 113 54 run fill ~ ~ ~ ~31 ~31 ~31 air
 execute positioned 82 115 2 run fill ~ ~ ~ ~31 ~31 ~31 air
+execute positioned 87 91 -63 run fill ~ ~ ~ ~31 ~31 ~31 air
 kill @e[type=armor_stand]
 
 execute as @a run spectate

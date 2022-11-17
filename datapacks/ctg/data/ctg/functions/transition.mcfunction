@@ -2,6 +2,7 @@
 
 # Would be great if these could be AECs, but they can't because the direction doesn't seem to update properly
 # Also would be great if they could be made fully invisible, but that also doesn't seem to work
+execute if entity @e[tag=_ctg_target] unless entity @e[tag=_ctg_eye_interpolation] as @p at @s run summon marker ^ ^ ^10 {Tags:["_ctg_eye_interpolation"]}
 execute if entity @e[tag=_ctg_target] unless entity @e[tag=_ctg_view] at @p run summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,NoGravity:1b,Tags:["_ctg_view"], CustomName:'"CTG View"'}
 team add all
 team join all @a[team=!all]
@@ -28,6 +29,10 @@ kill @e[type=falling_block]
 scoreboard players add @a[scores={_ctg_intro=0..}] _ctg_intro 1
 tag @a[scores={_ctg_intro=400}] add _ctg_transition_done
 execute as @a[tag=_ctg_transition_done] at @s run spawnpoint @s ~ ~ ~
+execute as @e[tag=_ctg_transition_done] run kill @e[type=area_effect_cloud,tag=_ctg_view]
+execute as @e[tag=_ctg_transition_done] run kill @e[type=area_effect_cloud,tag=_ctg_target]
+execute as @e[tag=_ctg_transition_done] run kill @e[type=area_effect_cloud,tag=_ctg_eye_target]
+execute as @e[tag=_ctg_transition_done] run kill @e[type=marker,tag=_ctg_eye_interpolation]
 scoreboard players reset @a[tag=_ctg_transition_done] _ctg_intro
 
 #execute as @e[tag=_ctg_eyes] at @s run particle minecraft:crit ~ ~ ~ 0 0 0 0 1 force

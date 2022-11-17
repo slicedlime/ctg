@@ -328,5 +328,17 @@
     "clone only the diamond blocks to on top of the command block itself": "clone only the diamond blocks to on top of the command block itself",
     "Make a command block that copies only the diamonds on top of itself": "Make a command block that copies only the diamonds on top of itself",
 
+    "--------- Lesson 7 ---------":"",
+
+    "Section 7": "Section 7",
+    "Selecting Entities": "Selecting Entities",
+    "Section 7 - Selecting Entities": "Section 7 - Selecting Entities",
+    "This section covers the kill command, the @a, @p, @r, @e selectors and the distance, type, limit and sort selector arguments.": "This section covers the kill command, the @a, @p, @r, @e selectors and the distance, type, limit and sort selector arguments.",
+    "[Selecting Entities Tutorial]": "[%s]",
+    "Selecting Entities Tutorial": "Selecting Entities Tutorial",
+
+    "Let's start out with some death. Kill all Endermen.": "Let's start out with some death. %s.",
+    "Kill all Endermen": "Kill all Endermen",
+
     "": ""
 }
