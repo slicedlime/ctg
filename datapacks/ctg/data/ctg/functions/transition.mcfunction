@@ -27,7 +27,7 @@ kill @e[type=falling_block]
 
 scoreboard players add @a[scores={_ctg_intro=0..}] _ctg_intro 1
 tag @a[scores={_ctg_intro=400}] add _ctg_transition_done
-execute as @a[tag=_ctg_transition_done] run spawnpoint @s ~ ~ ~
+execute as @a[tag=_ctg_transition_done] at @s run spawnpoint @s ~ ~ ~
 scoreboard players reset @a[tag=_ctg_transition_done] _ctg_intro
 
 #execute as @e[tag=_ctg_eyes] at @s run particle minecraft:crit ~ ~ ~ 0 0 0 0 1 force
