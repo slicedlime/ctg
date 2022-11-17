@@ -340,5 +340,23 @@
     "Let's start out with some death. Kill all Endermen.": "Let's start out with some death. %s.",
     "Kill all Endermen": "Kill all Endermen",
 
+    "There's an emerald block on the ground now. Place a command block on it and make it kill the nearest player.": "There's an emerald block on the ground now. Place a command block on it and make it %s.",
+    "kill the nearest player": "kill the nearest player",
+    "You don't need to run it.": "You don't need to run it.",
+    "I mean... if you don't want to!": "I mean... if you don't want to!",
+    "Make a command block that kills the nearest player": "Make a command block that kills the nearest player",
+
+    "New emerald block! Place a command block on this one and make it kill all players!": "New emerald block! Place a command block on this one and make it %s!",
+    "kill all players": "kill all players",
+    "You still don't need to run it.": "You still don't need to run it.",
+    "Seriously, no need. It's all on you.": "Seriously, no need. It's all on you.",
+    "Make a command block that kills all players": "Make a command block that kills all players",
+
+    "Yet another emerald block! Place a command block on this one and make it kill a random player!": "Yet another emerald block! Place a command block on this one and make it %s!",
+    "kill a random player": "kill a random player",
+    "You don't need to... ah you know, whatever.": "You don't need to... ah you know, whatever.",
+    "Run it if you want to I guess. See if I care.": "Run it if you want to I guess. See if I care.",
+    "Make a command block that kills a random player": "Make a command block that kills a random player",
+
     "": ""
 }

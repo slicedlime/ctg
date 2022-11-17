@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"There's an emerald block on the ground now. Place a command block on it and make it kill the nearest player.", "color":"gold", "with": [{"translate": "kill the nearest player", "color": "green"}]}]

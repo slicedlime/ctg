@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"Yet another emerald block! Place a command block on this one and make it kill a random player!", "color":"gold", "with": [{"translate": "kill a random player", "color": "green"}]}]
