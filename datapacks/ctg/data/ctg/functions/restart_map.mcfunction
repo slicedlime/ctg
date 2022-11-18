@@ -17,6 +17,7 @@ execute positioned 87 91 -63 run fill ~ ~ ~ ~31 ~31 ~31 air
 kill @e[type=armor_stand]
 kill @e[type=sheep]
 kill @e[type=enderman]
+kill @e[type=rabbit]
 
 execute as @a run spectate
 tp @a 0 102 0 -45 27
