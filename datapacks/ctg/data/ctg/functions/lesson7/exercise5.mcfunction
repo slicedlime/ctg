@@ -20,7 +20,7 @@ execute if score Completed _ctg_scratch matches 1 run scoreboard players set Exe
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Tick _ctg_scratch 0
 execute if score Completed _ctg_scratch matches 1 run function ctg:store
 
-execute if score Completed _ctg_scratch matches 1 run kill @e[type=marker,tag=_ctg_l7e1_check]
+execute if score Completed _ctg_scratch matches 1 run kill @e[type=marker,tag=_ctg_l7e5_check]
 
 execute if score Completed _ctg_scratch matches 0 unless entity @e[tag=_ctg_l7e5_enderman1] run summon minecraft:enderman 88.56 115.00 -61.66 {NoAI:1,Rotation:[-45f,5f],Tags:["_ctg_l7e5_enderman1"],PersistenceRequired:1b}
 execute if score Completed _ctg_scratch matches 0 unless entity @e[tag=_ctg_l7e5_enderman2] run summon minecraft:enderman 93.03 115.00 -50.53 {NoAI:1,Rotation:[-90f,5f],Tags:["_ctg_l7e5_enderman2"],PersistenceRequired:1b}
