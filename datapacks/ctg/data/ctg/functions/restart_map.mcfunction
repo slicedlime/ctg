@@ -18,6 +18,11 @@ kill @e[type=armor_stand]
 kill @e[type=sheep]
 kill @e[type=enderman]
 kill @e[type=rabbit]
+kill @e[type=creeper]
+kill @e[type=spider]
+kill @e[type=witch]
+kill @e[type=guardian]
+kill @e[type=item]
 
 execute as @a run spectate
 tp @a 0 102 0 -45 27

@@ -15,6 +15,7 @@ execute if block 101 115 -50 command_block run data modify block 101 115 -50 Upd
 execute store success score CommandExecuted _ctg_scratch run data modify storage ctg:l7e6 LastExecution set from block 101 115 -50 LastExecution
 execute if score Lesson _ctg_main matches 7 if score Exercise _ctg_main matches 6 if entity @a[tag=_ctg_l7e6_check] unless entity @e[type=creeper,tag=_ctg_l7e6_creeper_target] if entity @e[type=creeper,tag=_ctg_l7e6_creeper_miss_1] if entity @e[type=creeper,tag=_ctg_l7e6_creeper_miss_2] run scoreboard players set Completed _ctg_scratch 1
 
+execute if entity @a[tag=_ctg_l7e6_check] positioned 1024 10 1024 run kill @e[type=item,distance=..100]
 execute if entity @a[tag=_ctg_l7e6_check] positioned 1024 10 1024 run tp @e[type=creeper,distance=..100] ~ -100 ~
 execute if entity @a[tag=_ctg_l7e6_check] positioned 1024 -100 1024 run kill @e[type=creeper,distance=..100]
 
