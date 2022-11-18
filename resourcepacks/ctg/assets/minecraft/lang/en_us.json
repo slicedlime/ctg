@@ -337,8 +337,9 @@
     "[Selecting Entities Tutorial]": "[%s]",
     "Selecting Entities Tutorial": "Selecting Entities Tutorial",
 
-    "Let's start out with some death. Kill all Endermen.": "Let's start out with some death. %s.",
-    "Kill all Endermen": "Kill all Endermen",
+    "That sheep is looking pretty sus. What evil deed is it planning? Better kill it.": "That sheep is looking pretty sus. What evil deed is it planning? Better %s.",
+    "kill it": "kill it",
+    "Kill the suspicious sheep": "Kill the suspicious sheep",
 
     "There's an emerald block on the ground now. Place a command block on it and make it kill the nearest player.": "There's an emerald block on the ground now. Place a command block on it and make it %s.",
     "kill the nearest player": "kill the nearest player",
@@ -358,13 +359,31 @@
     "Run it if you want to I guess. See if I care.": "Run it if you want to I guess. See if I care.",
     "Make a command block that kills a random player": "Make a command block that kills a random player",
 
-    "That didn't teleport a rabbit to the right place!": "That didn't teleport a rabbit to the right place!",
-    "That teleported too many rabbits!": "That teleported too many rabbits!",
+    "Let's get even more destructive. Kill all Endermen.": "Let's get even more destructive. %s.",
+    "Kill all Endermen": "Kill all Endermen",
+
+    "New emerald block! Place a command block on this one that kills the closest two Witches.": "New emerald block! Place a command block on this one that %s.",
+    "kills the closest two Witches": "kills the closest two Witches",
+    "Make a command block that kills the closest two Witches": "Make a command block that kills the closest two Witches",
+
+    "One more! Make this command block kill the three Guardians that are the furthest away.": "One more! Make this command block %s.",
+    "kill the three Guardians that are the furthest away": "kill the three guardians that are the furthest away",
+    "Make a command block that kills the three Guardians furthest away": "Make a command block that kills the three Guardians furthest away",
+
+    "Okay, this time make the new command block kill all Creepers closer than 20 blocks.": "Okay, this time make the new command block %s.",
+    "kill all Creepers closer than 20 blocks": "kill all Creepers closer than 20 blocks",
+    "Make a command block that kills all Creepers closer than 20 blocks": "Make a command block that kills all Creepers closer than 20 blocks",
+
+    "Okay, now make a command block on the new emerald block that kills all spiders further away than 10 blocks.": "Okay, now make a command block on the new emerald block that %s.",
+    "kills all spiders further away than 10 blocks": "kills all spiders further away than 10 blocks",
+    "Make a command block that kills all spiders further away than 10 blocks": "Make a command block that kills all spiders further away than 10 blocks",
 
     "New emerald block! Place a command block on it and make it teleport a random rabbit to on top of the command block!": "New emerald block! Place a command block on it and make it %s!",
     "teleport a random rabbit to on top of the command block": "teleport a random rabbit to on top of the command block",
     "Make a command block that teleports a random rabbit on top of itself": "Make a command block that teleports a random rabbit on top of itself",
     "Checking, please stand by...": "Checking, please stand by...",
+    "That didn't teleport a rabbit to the right place!": "That didn't teleport a rabbit to the right place!",
+    "That teleported too many rabbits!": "That teleported too many rabbits!",
 
     "": ""
 }

@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"Okay, now make a command block on the new emerald block that kills all spiders further away than 10 blocks.", "color":"gold", "with": [{"translate": "kills all spiders further away than 10 blocks", "color": "green"}]}]

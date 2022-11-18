@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\n"},{"translate":"One more! Make this command block kill the three Guardians that are the furthest away.", "color":"gold", "with": [{"translate": "kill the three Guardians that are the furthest away", "color": "green"}]}]
