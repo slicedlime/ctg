@@ -3,7 +3,7 @@
 # Only do stuff if we're in the right lesson
 execute unless score Lesson _ctg_main matches 7 unless score Exercise _ctg_main matches 0 run function ctg:text/cheater
 
-execute if score Lesson _ctg_main matches 7 if score Exercise _ctg_main matches 0 run setblock 97 116 -58 minecraft:birch_wall_sign[facing=south,waterlogged=false]{Text4:'{"text":"start over"}',Text3:'{"clickEvent":{"action":"run_command","value":"/function ctg:restart_exercise"},"text":"Click here to"}',Text2:'{"text":"mincerafter!"}',Text1:'{"text":"Island by"}',GlowingText:1b}
+execute if score Lesson _ctg_main matches 7 if score Exercise _ctg_main matches 0 run setblock 97 116 -58 minecraft:birch_wall_sign[facing=south,waterlogged=false]{Text4:'{"text":"start over"}',Text3:'{"clickEvent":{"action":"run_command","value":"/function ctg:restart_exercise"},"text":"Click here to"}',Text2:'{"text":"mincerafter42!"}',Text1:'{"text":"Island by"}',GlowingText:1b}
 
 execute if score Lesson _ctg_main matches 7 if score Exercise _ctg_main matches 0 run kill @e[type=armor_stand,tag=_ctg_view]
 

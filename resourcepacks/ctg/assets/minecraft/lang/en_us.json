@@ -358,5 +358,13 @@
     "Run it if you want to I guess. See if I care.": "Run it if you want to I guess. See if I care.",
     "Make a command block that kills a random player": "Make a command block that kills a random player",
 
+    "That didn't teleport a rabbit to the right place!": "That didn't teleport a rabbit to the right place!",
+    "That teleported too many rabbits!": "That teleported too many rabbits!",
+
+    "New emerald block! Place a command block on it and make it teleport a random rabbit to on top of the command block!": "New emerald block! Place a command block on it and make it %s!",
+    "teleport a random rabbit to on top of the command block": "teleport a random rabbit to on top of the command block",
+    "Make a command block that teleports a random rabbit on top of itself": "Make a command block that teleports a random rabbit on top of itself",
+    "Checking, please stand by...": "Checking, please stand by...",
+
     "": ""
 }
