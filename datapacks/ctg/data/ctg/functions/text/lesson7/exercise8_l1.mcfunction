@@ -1,1 +1,1 @@
-tellraw @a [{"text":"\n"},{"translate":"Okay, this time make the new command block kill all Creepers closer than 20 blocks.", "color":"gold", "with": [{"translate": "kill all Creepers closer than 20 blocks", "color": "green"}]}]
+tellraw @a [{"text":"\n"},{"translate":"Okay, this time place a command block that kills the closest two Witches.", "color":"gold", "with": [{"translate": "kills the closest two Witches", "color": "green"}]}]
