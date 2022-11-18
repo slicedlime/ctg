@@ -11,7 +11,7 @@ function ctg:text/lesson7/exercise5_objective
 execute if score Tick _ctg_main matches 1 run summon enderman 1024 10 1024 {NoAI:1,PersistenceRequired:1b}
 
 scoreboard players set Completed _ctg_scratch 0
-execute if score Lesson _ctg_main matches 7 if score Exercise _ctg_main matches 1 if entity @e[type=marker,tag=_ctg_l7e5_check] unless entity @e[type=enderman] run scoreboard players set Completed _ctg_scratch 1
+execute if score Lesson _ctg_main matches 7 if score Exercise _ctg_main matches 5 if entity @e[type=marker,tag=_ctg_l7e5_check] unless entity @e[type=enderman] run scoreboard players set Completed _ctg_scratch 1
 execute unless entity @e[type=marker,tag=_ctg_l7e5_check] run summon marker 1024 10 1024 {Tags:["_ctg_l7e5_check"]}
 
 execute if score Completed _ctg_scratch matches 1 run function ctg:completed
