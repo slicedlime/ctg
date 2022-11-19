@@ -374,9 +374,9 @@
     "kills the closest two Witches": "kills the closest two Witches",
     "Make a command block that kills the closest two Witches": "Make a command block that kills the closest two Witches",
 
-    "One more! Make this command block kill the three Guardians that are the furthest away.": "One more! Make this command block %s.",
-    "kill the three Guardians that are the furthest away": "kill the three guardians that are the furthest away",
-    "Make a command block that kills the three Guardians furthest away": "Make a command block that kills the three Guardians furthest away",
+    "One more! Make this command block kill the Guardian that is the furthest away.": "One more! Make this command block %s.",
+    "kill the Guardian that is the furthest away": "kill the Guardian that is the furthest away",
+    "Make a command block that kills the Guardian furthest away": "Make a command block that kills the Guardian furthest away",
 
     "New emerald block! Place a command block on it and make it teleport a random rabbit to on top of the command block!": "New emerald block! Place a command block on it and make it %s!",
     "teleport a random rabbit to on top of the command block": "teleport a random rabbit to on top of the command block",
