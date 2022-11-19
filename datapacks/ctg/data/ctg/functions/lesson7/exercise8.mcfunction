@@ -2,6 +2,7 @@
 execute if score Tick _ctg_main matches 1 run function ctg:gamemode/creative
 execute if score Tick _ctg_main matches 1 run clear @a
 execute if score Tick _ctg_main matches 1 run fill 1024 10 1024 1036 30 1036 air
+execute positioned 87 91 -63 run fill ~ ~ ~ ~31 ~31 ~31 air replace repeating_command_block
 
 # Description
 execute if score Tick _ctg_main matches 1 run function ctg:text/lesson7/exercise8_l1
@@ -13,15 +14,16 @@ scoreboard players set Completed _ctg_scratch 0
 
 execute if block 98 115 -42 command_block run data modify block 98 115 -42 UpdateLastExecution set value 1
 execute store success score CommandExecuted _ctg_scratch run data modify storage ctg:l7e8 LastExecution set from block 98 115 -42 LastExecution
-execute if score Lesson _ctg_main matches 7 if score Exercise _ctg_main matches 8 if entity @a[tag=_ctg_l7e8_check] unless entity @e[type=witch,tag=_ctg_l7e8_witch_target] if entity @e[type=witch,tag=_ctg_l7e8_witch_miss_1] if entity @e[type=witch,tag=_ctg_l7e8_witch_miss_2] if entity @e[type=witch,tag=_ctg_l7e8_witch_miss_3] run scoreboard players set Completed _ctg_scratch 1
+execute if score Lesson _ctg_main matches 7 if score Exercise _ctg_main matches 8 if entity @a[tag=_ctg_l7e8_check] unless entity @e[type=witch,tag=_ctg_l7e8_witch_target] if entity @e[type=witch,tag=_ctg_l7e8_witch_miss_1] if entity @e[type=witch,tag=_ctg_l7e8_witch_miss_2] if entity @e[type=witch,tag=_ctg_l7e8_witch_miss_3] if entity @e[type=creeper,tag=_ctg_l7e8_creeper_miss] run scoreboard players set Completed _ctg_scratch 1
 
 execute if entity @a[tag=_ctg_l7e8_check] positioned 1024 10 1024 run kill @e[type=item,distance=..100]
 execute if entity @a[tag=_ctg_l7e8_check] positioned 1024 10 1024 run tp @e[type=witch,distance=..100] ~ -100 ~
 execute if entity @a[tag=_ctg_l7e8_check] positioned 1024 -100 1024 run kill @e[type=witch,distance=..100]
 execute if entity @a[tag=_ctg_l7e8_check] run setblock 1024 300 1024 air
+execute if entity @a[tag=_ctg_l7e8_check] run kill @e[type=creeper,tag=_ctg_l7e8_creeper_miss]
 
 tag @a remove _ctg_l7e8_check
-execute if score CommandExecuted _ctg_scratch matches 1 run function ctg:lesson7/exercise8_check
+execute if block 98 115 -42 command_block if score CommandExecuted _ctg_scratch matches 1 run function ctg:lesson7/exercise8_check
 
 execute if score Completed _ctg_scratch matches 1 run function ctg:completed
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Lesson _ctg_scratch 7

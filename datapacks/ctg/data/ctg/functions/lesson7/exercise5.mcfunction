@@ -2,6 +2,7 @@
 function ctg:gamemode/adventure
 clear @a
 fill 1024 10 1024 1034 40 1034 air
+execute positioned 87 91 -63 run fill ~ ~ ~ ~31 ~31 ~31 air replace repeating_command_block
 
 # Description
 execute if score Tick _ctg_main matches 1 run function ctg:text/lesson7/exercise5_l1

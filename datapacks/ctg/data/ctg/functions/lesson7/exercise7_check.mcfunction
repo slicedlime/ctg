@@ -7,6 +7,7 @@ summon spider 1024 20 1024 {Tags:["_ctg_l7e7_spider_miss_3"], NoAI:1, Persistenc
 summon spider 1024 21 1024 {Tags:["_ctg_l7e7_spider_target"], NoAI:1, PersistenceRequired:1}
 summon spider 1024 22 1024 {Tags:["_ctg_l7e7_spider_target"], NoAI:1, PersistenceRequired:1}
 summon spider 1024 23 1024 {Tags:["_ctg_l7e7_spider_target"], NoAI:1, PersistenceRequired:1}
+summon creeper 1024 23 1024 {Tags:["_ctg_l7e7_creeper_miss"], NoAI:1, PersistenceRequired:1}
 summon spider 1024 24 1024 {Tags:["_ctg_l7e7_spider_target"], NoAI:1, PersistenceRequired:1}
 summon spider 1024 25 1024 {Tags:["_ctg_l7e7_spider_target"], NoAI:1, PersistenceRequired:1}
 summon spider 1024 200 1024 {Tags:["_ctg_l7e7_spider_target"], NoAI:1, PersistenceRequired:1}

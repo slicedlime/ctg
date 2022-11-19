@@ -2,6 +2,7 @@
 execute if score Tick _ctg_main matches 1 run function ctg:gamemode/creative
 execute if score Tick _ctg_main matches 1 run clear @a
 execute if score Tick _ctg_main matches 1 run fill 1024 10 1024 1036 30 1036 air
+execute positioned 87 91 -63 run fill ~ ~ ~ ~31 ~31 ~31 air replace repeating_command_block
 
 # Description
 execute if score Tick _ctg_main matches 1 run function ctg:text/lesson7/exercise9_l1
@@ -21,7 +22,7 @@ execute if entity @a[tag=_ctg_l7e9_check] positioned 1024 10 1024 run tp @e[type
 execute if entity @a[tag=_ctg_l7e9_check] positioned 1024 -100 1024 run kill @e[type=guardian,distance=..200]
 
 tag @a remove _ctg_l7e9_check
-execute if score CommandExecuted _ctg_scratch matches 1 run function ctg:lesson7/exercise9_check
+execute if block 104 115 -44 command_block if score CommandExecuted _ctg_scratch matches 1 run function ctg:lesson7/exercise9_check
 
 execute if score Completed _ctg_scratch matches 1 run function ctg:completed
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Lesson _ctg_scratch 7

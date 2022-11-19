@@ -9,6 +9,7 @@ summon creeper 1024 29 1024 {Tags:["_ctg_l7e6_creeper_target"], NoAI:1, Persiste
 summon creeper 1024 30 1024 {Tags:["_ctg_l7e6_creeper_target"], NoAI:1, PersistenceRequired:1}
 summon creeper 1024 31 1024 {Tags:["_ctg_l7e6_creeper_miss_1"], NoAI:1, PersistenceRequired:1}
 summon creeper 1024 32 1024 {Tags:["_ctg_l7e6_creeper_miss_2"], NoAI:1, PersistenceRequired:1}
+summon spider 1024 25 1024 {Tags:["_ctg_l7e6_spider_miss_1"], NoAI:1, PersistenceRequired:1}
 
 setblock 1024 10 1024 command_block
 data modify block 1024 10 1024 Command set from block 101 115 -50 Command
