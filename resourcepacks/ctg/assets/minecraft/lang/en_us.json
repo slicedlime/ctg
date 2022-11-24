@@ -54,6 +54,7 @@
     "If you want to be notified when new sections are added, subscribe to slicedlime on YouTube and make sure to enable alerts by clicking on the bell icon.": "If you want to be notified when new sections are added, subscribe to slicedlime on YouTube and make sure to enable alerts by clicking on the bell icon.",
     "In fact, I think it needs a display case. Please make a yellow glass box around it.": "In fact, I think it needs a display case. Please %s.",
     "In order for you to complete these exercises, it is important that you know how to look at the chat and click links in it.": "In order for you to complete these exercises, it is important that you know how to look at the chat and click links in it.",
+    "It's very empty here in this weird box. Let's make a friend - summon a cow without AI.": "It's very empty here in this weird box. Let's make a friend - %s.",
     "Kill all Endermen": "Kill all Endermen",
     "Kill the suspicious sheep": "Kill the suspicious sheep",
     "Let's get even more destructive. Kill all Endermen.": "Let's get even more destructive. %s.",
@@ -179,6 +180,7 @@
     "Stand on the diamond block and activate the command block": "Stand on the diamond block and activate the command block",
     "Subscribe to slicedlime": "Subscribe to slicedlime",
     "Summon a Polar Bear": "Summon a Polar Bear",
+    "Summon a cow without AI": "Summon a cow without AI",
     "Summoning and Tagging Entities": "Summoning and Tagging Entities",
     "Summoning and Tagging Entities Tutorial": "Summoning and Tagging Entities Tutorial",
     "Surround the statue with a yellow glass box": "Surround the statue with a yellow glass box",
@@ -297,6 +299,7 @@
     "replace them and everything in between with nether bricks": "replace them and everything in between with nether bricks",
     "stand on the diamond block and activate the command block": "stand on the diamond block and activate the command block",
     "summon a Polar Bear": "summon a Polar Bear",
+    "summon a cow without AI": "summon a cow without AI",
     "switch into all the different game modes": "switch into all the different game modes",
     "teleport a random rabbit to on top of the command block": "teleport a random rabbit to on top of the command block"
 }
