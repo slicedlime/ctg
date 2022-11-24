@@ -19,15 +19,16 @@ def decode(json, strings, allow_non_translate = False) -> str:
             key = json['translate']
 
         if 'with' in json:
-            sub_object = json['with']
-            if isinstance(sub_object, list):
-                if len(sub_object) > 1:
-                    raise Exception("Can't handle list of > 1 item as sub-object")
-                sub_object = sub_object[0]
-            sub_key = decode(sub_object, strings)
-            if not sub_key in key:
-                raise Exception("with clause doesn't index into top-level string")
-            set_string(strings, key, key.replace(sub_key, '%s'))
+            sub_objects = json['with']
+            value = key
+            if not isinstance(sub_objects, list):
+                raise Exception("Expected a list for with clause")
+            for sub_object in sub_objects:
+                sub_key = decode(sub_object, strings)
+                if not sub_key in key:
+                    raise Exception("with clause doesn't index into top-level string")
+                value = value.replace(sub_key, '%s')
+            set_string(strings, key, value)
         else:
             set_string(strings, key, key)
         return key
