@@ -1,0 +1,2 @@
+tellraw @a [{"text":"\n"},{"translate":"To see the tutorial video for this section, click the link below.","color":"gold"}]
+tellraw @a [{"text":""},{"translate":"[Summoning and Tagging Entities Tutorial]","color":"yellow","with":[{"translate":"Summoning and Tagging Entities Tutorial","color":"yellow","underlined":true}],"clickEvent":{"action":"open_url","value":"video 8"},"hoverEvent":{"action":"show_text","value":{"translate":"Watch Tutorial Video"}}}]
