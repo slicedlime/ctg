@@ -2,7 +2,14 @@ import pathlib
 import re
 import json
 
-TELLRAW_PATTERN = re.compile('tellraw \@[aeprs](\[.*?\])? (.*)')
+TELLRAW_PATTERN = re.compile('.*tellraw \@[aeprs](\[.*?\])? (.*)')
+TITLE_PATTERN = re.compile('.*title \@[aeprs](\[.*?\])? \w+ (.*)')
+
+def set_string(strings: dict, key: str, value: str):
+    if key in strings:
+        if strings[key] != value:
+            raise Exception('Duplicate key with different values: ' + key)
+    strings[key] = value
 
 def decode(json, strings, allow_non_translate = False) -> str:
     if 'translate' in json or 'lookup' in json:
@@ -20,9 +27,9 @@ def decode(json, strings, allow_non_translate = False) -> str:
             sub_key = decode(sub_object, strings)
             if not sub_key in key:
                 raise Exception("with clause doesn't index into top-level string")
-            strings[key] = key.replace(sub_key, '%s')
+            set_string(strings, key, key.replace(sub_key, '%s'))
         else:
-            strings[key] = key
+            set_string(strings, key, key)
         return key
     elif not allow_non_translate:
         raise Exception("Can't handle non-translate sub-key without lookup")
@@ -36,6 +43,8 @@ for path in pathlib.Path('datapacks/ctg/data/ctg/functions').rglob('*.mcfunction
             lines = file.readlines()
             for line in lines:
                 match = TELLRAW_PATTERN.match(line)
+                if not match:
+                    match = TITLE_PATTERN.match(line)
                 if match:
                     json_string = match.group(2)
                     data = json.loads(json_string)
