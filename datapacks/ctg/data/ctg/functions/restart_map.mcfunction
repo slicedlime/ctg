@@ -23,6 +23,10 @@ kill @e[type=creeper]
 kill @e[type=spider]
 kill @e[type=witch]
 kill @e[type=guardian]
+kill @e[type=cow]
+kill @e[type=cat]
+kill @e[type=skeleton]
+kill @e[type=wolf]
 kill @e[type=item]
 
 execute as @a run spectate
