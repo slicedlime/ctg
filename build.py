@@ -1,9 +1,12 @@
+import json
+import os.path
 import pathlib
 import re
-import json
 
 TELLRAW_PATTERN = re.compile('.*tellraw \@[aeprs](\[.*?\])? (.*)')
 TITLE_PATTERN = re.compile('.*title \@[aeprs](\[.*?\])? \w+ (.*)')
+
+FUNCTIONS_DIR = 'datapacks/ctg/data/ctg/functions'
 
 def set_string(strings: dict, key: str, value: str):
     if key in strings:
@@ -38,7 +41,7 @@ def decode(json, strings, allow_non_translate = False) -> str:
 # Find all text strings, move them to languages
 
 strings = dict()
-for path in pathlib.Path('datapacks/ctg/data/ctg/functions').rglob('*.mcfunction'):
+for path in pathlib.Path(FUNCTIONS_DIR).rglob('*.mcfunction'):
     with open(path.absolute(), 'r') as file:
         try:
             lines = file.readlines()
@@ -59,3 +62,27 @@ for path in pathlib.Path('datapacks/ctg/data/ctg/functions').rglob('*.mcfunction
 
 with open('resourcepacks/ctg/assets/minecraft/lang/en_us.json', 'w') as en_us_file:
     en_us_file.write(json.dumps(strings, sort_keys=True, indent=4))
+
+# Write dispatch
+dispatch = []
+
+dispatch.append('execute if score Lesson _ctg_main matches 0 if score Exercise _ctg_main matches 0 run function ctg:intro/intro')
+dispatch.append('')
+
+lesson = 1
+while os.path.isdir(f'{FUNCTIONS_DIR}/lesson{lesson}'):
+    dispatch.append(f'execute if score Lesson _ctg_main matches {lesson} if score Exercise _ctg_main matches 0 run function ctg:lesson{lesson}/intro')
+    exercise = 1
+    while os.path.exists(f'{FUNCTIONS_DIR}/lesson{lesson}/exercise{exercise}.mcfunction'):
+        dispatch.append(f'execute if score Lesson _ctg_main matches {lesson} if score Exercise _ctg_main matches {exercise} run function ctg:lesson{lesson}/exercise{exercise}')
+        exercise += 1
+    dispatch.append('')
+    lesson += 1
+
+dispatch.append(f'execute if score Lesson _ctg_main matches {lesson} if score Exercise _ctg_main matches 0 run function ctg:next_episode/intro')
+dispatch.append('# Dispatch correct lesson script depending on lesson scores')
+
+with open(f'{FUNCTIONS_DIR}/dispatch.mcfunction', 'w') as dispatch_file:
+    dispatch.reverse()
+    for line in dispatch:
+        dispatch_file.write(f'{line}\n')
