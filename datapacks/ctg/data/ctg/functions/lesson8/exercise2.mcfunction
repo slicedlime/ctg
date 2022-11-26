@@ -3,7 +3,8 @@ function ctg:gamemode/adventure
 clear @a
 
 # Description
-execute if score Tick _ctg_main matches 1 run tellraw @a [{"text":"\n"},{"translate":"Hey there's a quick way to pass this exercise. Add the tag 'cheater' to yourself.", "color":"gold", "with": [{"translate": "Add the tag 'cheater' to yourself", "color": "green", "with": [{"text": "cheater", "color": "white", "lookup": "cheater"}]}]}]
+execute if score Tick _ctg_main matches 1 run tellraw @a [{"text":"\n"},{"translate":"Actually, changed my mind - I've turned it off again.", "color": "gold"}]
+execute if score Tick _ctg_main matches 80 run tellraw @a [{"text":"\n"},{"translate":"Hey, there's a quick way to pass this exercise. Add the tag 'cheater' to yourself.", "color":"gold", "with": [{"translate": "Add the tag 'cheater' to yourself", "color": "green", "with": [{"text": "cheater", "color": "white", "lookup": "cheater"}]}]}]
 
 title @a actionbar [{"translate":"Add the 'cheater' tag to yourself","color":"green", "with": [{"text": "cheater", "color": "white", "lookup": "cheater"}]}]
 

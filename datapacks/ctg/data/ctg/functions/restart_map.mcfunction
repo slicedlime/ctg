@@ -27,6 +27,7 @@ kill @e[type=cow]
 kill @e[type=cat]
 kill @e[type=skeleton]
 kill @e[type=wolf]
+kill @e[type=axolotl]
 kill @e[type=item]
 
 execute as @a run spectate

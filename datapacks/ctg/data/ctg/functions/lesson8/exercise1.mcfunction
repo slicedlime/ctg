@@ -3,7 +3,7 @@ function ctg:gamemode/adventure
 clear @a
 
 # Description
-execute if score Tick _ctg_main matches 1 run tellraw @a [{"text":"\n"},{"translate":"Mob spawning is turned off. Turn it back on.", "color":"gold", "with": [{"translate": "Turn it back on", "color": "green"}]}]
+execute if score Tick _ctg_main matches 1 run tellraw @a [{"text":"\n"},{"translate":"Notice how there are no mobs spawning on this map? Mob spawning is turned off. Turn it back on.", "color":"gold", "with": [{"translate": "Turn it back on", "color": "green"}]}]
 
 title @a actionbar [{"translate":"Turn mob spawning on","color":"green"}]
 
