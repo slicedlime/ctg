@@ -1,6 +1,8 @@
 # Player state
 function ctg:gamemode/adventure
 clear @a
+execute if score Tick _ctg_main matches 1 run tp @e[type=cow] ~ -300 ~
+execute if score Tick _ctg_main matches 1 run kill @e[type=cow]
 
 # Description
 execute if score Tick _ctg_main matches 1 run tellraw @a [{"text":"\n"},{"translate":"It's very empty here in this weird box. Let's make a friend - summon a cow without AI.", "color":"gold", "with": [{"translate": "summon a cow without AI", "color": "green"}]}]

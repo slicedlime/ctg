@@ -1,6 +1,8 @@
 # Player state
 function ctg:gamemode/adventure
 clear @a
+execute if score Tick _ctg_main matches 1 run tp @e[type=skeleton] ~ -300 ~
+execute if score Tick _ctg_main matches 1 run kill @e[type=skeleton]
 
 # Description
 execute if score Tick _ctg_main matches 1 run tellraw @a [{"text":"\n"},{"translate":"It's a bit boring. Let's play a game of tags! Summon a skeleton without AI and with the 'archer' tag.", "color":"gold", "with": [{"translate": "Summon a skeleton without AI and with the 'archer' tag", "color": "green", "with": [{"text": "archer", "color": "white", "lookup": "archer"}]}]}]
