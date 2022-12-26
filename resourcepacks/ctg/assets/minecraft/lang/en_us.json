@@ -215,6 +215,7 @@
     "Switch to game modes: ": "Switch to game modes: ",
     "T (or the key you have rebound Open Chat to)": "T (or the key you have rebound Open Chat to)",
     "Teleport 3 blocks above the command block in survival mode": "Teleport 3 blocks above the command block in survival mode",
+    "Teleport all bats two blocks upwards": "Teleport all bats two blocks upwards",
     "That cow isn't much fun, is it? Let's get a better friend. Summon a rabbit with both the 'cute' and the 'jumpy' tags.": "That cow isn't much fun, is it? Let's get a better friend. %s.",
     "That didn't teleport a rabbit to the right place!": "That didn't teleport a rabbit to the right place!",
     "That isn't quite the right way.": "That isn't quite the right way.",
@@ -274,6 +275,7 @@
     "When you are done, activate the command block.": "When you are done, activate the command block.",
     "When you are done, press the button on the diamond block.": "When you are done, press the button on the diamond block.",
     "When you are done, press the button on the diamond block. Make sure your commands work even if the original plushie does not exist.": "When you are done, press the button on the diamond block. Make sure your commands work even if the original plushie does not exist.",
+    "Where did all these bats come from? Are they having trouble taking off? Help them out by teleporting them all two blocks upwards.": "Where did all these bats come from? Are they having trouble taking off? Help them out by %s.",
     "Whoops - that was the wrong selector! I've turned your command block off for now.": "Whoops - that was the wrong selector! I've turned your command block off for now.",
     "Whoops! Looks like you accidentaly killed an entity I need here.": "Whoops! Looks like you accidentaly killed an entity I need here.",
     "Whoops! Looks like you accidentaly messed up an entity I need here.": "Whoops! Looks like you accidentaly messed up an entity I need here.",
@@ -345,5 +347,6 @@
     "summon a cow without AI": "summon a cow without AI",
     "summon an exact copy of the axolotl": "summon an exact copy of the axolotl",
     "switch into all the different game modes": "switch into all the different game modes",
-    "teleport a random rabbit to on top of the command block": "teleport a random rabbit to on top of the command block"
+    "teleport a random rabbit to on top of the command block": "teleport a random rabbit to on top of the command block",
+    "teleporting them all two blocks upwards": "teleporting them all two blocks upwards"
 }
