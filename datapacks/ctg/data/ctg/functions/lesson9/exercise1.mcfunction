@@ -2,11 +2,9 @@
 function ctg:gamemode/adventure
 clear @a
 
-
-
 # Description
 execute if score Tick _ctg_main matches 1 run tellraw @a [{"text":"\n"},{"translate":"These husks look like they need a bit of a cheering up. You know what's good for that? Shroomlights.", "color":"gold"}]
-execute if score Tick _ctg_main matches 1 run tellraw @a [{"text":"\n"},{"translate":"Place a shroomlight above the head of all husks.", "color":"gold", "with": [{"translate": "Place a shroomlight above the head of all husks", "color": "green"}]}]
+execute if score Tick _ctg_main matches 80 run tellraw @a [{"text":"\n"},{"translate":"Place a shroomlight above the head of all husks.", "color":"gold", "with": [{"translate": "Place a shroomlight above the head of all husks", "color": "green"}]}]
 
 title @a actionbar [{"translate":"Place a shroomlight above the head of all husks","color":"green"}]
 
