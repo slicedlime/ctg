@@ -32,6 +32,7 @@ kill @e[type=skeleton]
 kill @e[type=wolf]
 kill @e[type=axolotl]
 kill @e[type=item]
+kill @e[type=end_crystal]
 
 execute as @a run spectate
 tp @a 0 102 0 -45 27
