@@ -1,0 +1,3 @@
+execute if score Completed _ctg_scratch matches 0 unless entity @e[type=endermite,tag=_ctg_l10_e1] run summon endermite -58.86 119.00 -73.34 {NoAI:1, Rotation:[-221f,15.4f], Tags:["_ctg_l10_e1"],PersistenceRequired:1b}
+execute if score Completed _ctg_scratch matches 0 unless entity @e[type=endermite,tag=_ctg_l10_e2] run summon endermite -65.62 120.00 -70.74 {NoAI:1, Rotation:[-163f,10.4f], Tags:["_ctg_l10_e2"],PersistenceRequired:1b}
+execute if score Completed _ctg_scratch matches 0 unless entity @e[type=endermite,tag=_ctg_l10_e3] run summon endermite -73.83 119.00 -70.10 {NoAI:1, Rotation:[-112f,7.3f], Tags:["_ctg_l10_e3"],PersistenceRequired:1b}
