@@ -4,9 +4,9 @@ clear @a
 execute if score Tick _ctg_main matches 1 run scoreboard players reset AHiddenValue fun
 
 # Description
-execute if score Tick _ctg_main matches 1 run tellraw @a [{"text":"\n"},{"translate":"I want a fun score too! Set the score for 'slicedlime' to 1337!", "color":"gold", "with": [{"translate": "Set the score for 'slicedlime' to 1337", "color": "green"}]}]
+execute if score Tick _ctg_main matches 1 run tellraw @a [{"text":"\n"},{"translate":"I want a fun score too! Set the score for 'slicedlime' to 1337!", "color":"gold", "with": [{"translate": "Set the score for 'slicedlime' to 1337", "color": "green", "with": [{"text": "slicedlime", "color": "white", "lookup": "slicedlime"}]}]}]
 
-title @a actionbar [{"translate":"Set the 'fun' score for 'slicedlime' to 1337","color":"green"}]
+title @a actionbar [{"translate":"Set the 'fun' score for 'slicedlime' to 1337", "color":"green", "with": [{"text": "fun", "color": "white", "lookup": "fun"}, {"text": "slicedlime", "color": "white", "lookup": "slicedlime"}]}]
 
 # Win condition
 scoreboard players set Completed _ctg_scratch 0
