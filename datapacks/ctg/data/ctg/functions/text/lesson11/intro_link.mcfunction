@@ -1,0 +1,2 @@
+tellraw @a [{"text":"\n"},{"translate":"To see the tutorial video for this section, click the link below.","color":"gold"}]
+tellraw @a [{"text":""},{"translate":"[execute if and unless Tutorial]","color":"yellow","with":[{"translate":"execute if and unless Tutorial","color":"yellow","underlined":true}],"clickEvent":{"action":"open_url","value":"https://youtu.be/mEUpxev-1Eg"},"hoverEvent":{"action":"show_text","value":{"translate":"Watch Tutorial Video"}}}]
