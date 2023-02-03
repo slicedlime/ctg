@@ -31,3 +31,4 @@ execute if score Completed _ctg_scratch matches 1 run scoreboard players set Les
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Exercise _ctg_scratch 4
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Tick _ctg_scratch 0
 execute if score Completed _ctg_scratch matches 1 run function ctg:store
+execute if score Completed _ctg_scratch matches 1 run tp @e[type=pig,tag=_ctg_l11e3] ~ -1000 ~
