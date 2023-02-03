@@ -20,9 +20,9 @@ execute if score Tick _ctg_main matches 80 run tellraw @a [{"text":"\n"},{"trans
 title @a actionbar [{"translate":"Summon a sheep at every pig on a grass block","color":"green"}]
 
 # Win condition
+execute store result score SheepCount _ctg_scratch if entity @e[type=sheep]
 scoreboard players set Completed _ctg_scratch 0
-execute if score Lesson _ctg_main matches 11 if score Exercise _ctg_main matches 3 at @e[type=pig,tag=_ctg_l11e3p1] unless entity @e[type=sheep,distance=..1] at @e[type=pig,tag=_ctg_l11e3p2] if entity @e[type=sheep,distance=..1] at @e[type=pig,tag=_ctg_l11e3p3] if entity @e[type=sheep,distance=..1] at @e[type=pig,tag=_ctg_l11e3p4] unless entity @e[type=sheep,distance=..1] run scoreboard players set Completed _ctg_scratch 1
-tag @a[tag=_ctg_l11e2_check] remove _ctg_l11e2_check
+execute if score Lesson _ctg_main matches 11 if score Exercise _ctg_main matches 3 at @e[type=pig,tag=_ctg_l11e3p1] unless entity @e[type=sheep,distance=..1] at @e[type=pig,tag=_ctg_l11e3p2] if entity @e[type=sheep,distance=..1] at @e[type=pig,tag=_ctg_l11e3p3] if entity @e[type=sheep,distance=..1] at @e[type=pig,tag=_ctg_l11e3p4] unless entity @e[type=sheep,distance=..1] if score SheepCount _ctg_scratch matches 2 run scoreboard players set Completed _ctg_scratch 1
 
 tp @e[type=sheep] ~ -1000 ~
 
