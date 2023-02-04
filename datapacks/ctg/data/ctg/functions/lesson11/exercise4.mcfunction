@@ -1,5 +1,5 @@
 # Player state
-function ctg:gamemode/creative
+function ctg:gamemode/adventure
 execute if score Tick _ctg_main matches 1 run clear @a
 execute if score Tick _ctg_main matches 1 run scoreboard objectives add OnGround dummy
 execute unless entity @e[type=allay,tag=_ctg_l11e4a1] run summon allay -74.88 104.28 -16.54 {NoAI:1, Tags:["_ctg_l11e4a1", "_ctg_l11e4"], Rotation:[-606.23f,34.74f]}
