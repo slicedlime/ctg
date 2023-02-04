@@ -18,8 +18,10 @@ def decode(json, strings, allow_non_translate = False) -> str:
     if 'translate' in json or 'lookup' in json:
         if 'lookup' in json:
             key = json['lookup']
+            include = False
         else:
             key = json['translate']
+            include = True
 
         if 'with' in json:
             sub_objects = json['with']
@@ -31,8 +33,9 @@ def decode(json, strings, allow_non_translate = False) -> str:
                 if not sub_key in key:
                     raise Exception("with clause doesn't index into top-level string")
                 value = value.replace(sub_key, '%s')
-            set_string(strings, key, value)
-        else:
+            if include:
+                set_string(strings, key, value)
+        elif include:
             set_string(strings, key, key)
         return key
     elif not allow_non_translate:
