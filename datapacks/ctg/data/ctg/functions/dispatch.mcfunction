@@ -1,6 +1,7 @@
 # Dispatch correct lesson script depending on lesson scores
 execute if score Lesson _ctg_main matches 12 if score Exercise _ctg_main matches 0 run function ctg:next_episode/intro
 
+execute if score Lesson _ctg_main matches 11 if score Exercise _ctg_main matches 8 run function ctg:lesson11/exercise8
 execute if score Lesson _ctg_main matches 11 if score Exercise _ctg_main matches 7 run function ctg:lesson11/exercise7
 execute if score Lesson _ctg_main matches 11 if score Exercise _ctg_main matches 6 run function ctg:lesson11/exercise6
 execute if score Lesson _ctg_main matches 11 if score Exercise _ctg_main matches 5 run function ctg:lesson11/exercise5
