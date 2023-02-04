@@ -30,8 +30,6 @@ execute if entity @a[tag=_ctg_l11e6_check_2] if score DiamondCount _ctg_scratch 
 execute if entity @a[tag=_ctg_l11e6_check_2] if score DiamondCount _ctg_scratch matches 0 run function ctg:lesson11/exercise6_check
 tag @a[tag=_ctg_l11e6_check_2] remove _ctg_l11e6_check_2
 
-execute if entity @a[tag=_ctg_l11e6_check_1] if score DiamondCount _ctg_scratch matches 1 run say Check 1 diamonds
-execute if entity @a[tag=_ctg_l11e6_check_1] if score DiamondCount _ctg_scratch matches 0 run say Check 1 no diamonds
 execute if entity @a[tag=_ctg_l11e6_check_1] if score DiamondCount _ctg_scratch matches 1 run tag @a add _ctg_l11e6_check_2
 execute if entity @a[tag=_ctg_l11e6_check_1] if score DiamondCount _ctg_scratch matches 1 run kill @e[type=silverfish]
 execute if entity @a[tag=_ctg_l11e6_check_1] if score DiamondCount _ctg_scratch matches 1 run function ctg:lesson11/exercise6_check
