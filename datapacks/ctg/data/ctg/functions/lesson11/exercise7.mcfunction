@@ -1,7 +1,6 @@
 # Player state
 function ctg:gamemode/adventure
 execute if score Tick _ctg_main matches 1 run clear @a
-execute if score Tick _ctg_main matches 1 run scoreboard objectives add OnGround dummy
 execute unless entity @e[type=allay,tag=_ctg_l11e7a1] run summon allay -74.88 104.28 -16.54 {NoAI:1, Tags:["_ctg_l11e7a1", "_ctg_l11e7"], Rotation:[-606.23f,34.74f]}
 execute unless entity @e[type=allay,tag=_ctg_l11e7a2] run summon allay -74.37 100.50 -20.44 {NoAI:1, Tags:["_ctg_l11e7a2", "_ctg_l11e7"], Rotation:[-633.61f,7.11f]}
 fill 1024 10 1024 1026 100 1026 air
@@ -25,7 +24,6 @@ scoreboard players set Completed _ctg_scratch 0
 execute if score Lesson _ctg_main matches 11 if score Exercise _ctg_main matches 7 if score TaggedCount _ctg_scratch matches 2 if entity @e[type=allay,tag=_ctg_l11e7a1,tag=lonely] if entity @e[type=allay,tag=_ctg_l11e7a3,tag=lonely] run scoreboard players set Completed _ctg_scratch 1
 tag @e[tag=lonely] remove lonely
 
-scoreboard players reset * OnGround
 execute if score Completed _ctg_scratch matches 1 run function ctg:completed
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Lesson _ctg_scratch 11
 execute if score Completed _ctg_scratch matches 1 run scoreboard players set Exercise _ctg_scratch 8
