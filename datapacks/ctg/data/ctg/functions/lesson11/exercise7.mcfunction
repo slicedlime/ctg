@@ -21,7 +21,7 @@ title @a actionbar [{"translate":"Tag all allays without a bat within 5 blocks '
 execute store result score TaggedCount _ctg_scratch if entity @e[tag=lonely]
 
 scoreboard players set Completed _ctg_scratch 0
-execute if score Lesson _ctg_main matches 11 if score Exercise _ctg_main matches 7 if score TaggedCount _ctg_scratch matches 2 if entity @e[type=allay,tag=_ctg_l11e7a1,tag=lonely] if entity @e[type=allay,tag=_ctg_l11e7a3,tag=lonely] run scoreboard players set Completed _ctg_scratch 1
+execute if score Lesson _ctg_main matches 11 if score Exercise _ctg_main matches 7 if score TaggedCount _ctg_scratch matches 2 if entity @e[type=allay,tag=_ctg_l11e7a2,tag=lonely] if entity @e[type=allay,tag=_ctg_l11e7a4,tag=lonely] run scoreboard players set Completed _ctg_scratch 1
 tag @e[tag=lonely] remove lonely
 
 execute if score Completed _ctg_scratch matches 1 run function ctg:completed
